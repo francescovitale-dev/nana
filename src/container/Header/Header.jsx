@@ -14,7 +14,7 @@ const Header = () => (
         Always fresh, always tasty. Enjoy our fine
         dining experience.
       </p>
-      <button type='button' className='custom__button'>Explore Menu</button>
+      <button type='button' className='custom__button' ><a href="#menu">Explore Menu</a></button>
     </div>
 
     <div className='app__wrapper_img'>

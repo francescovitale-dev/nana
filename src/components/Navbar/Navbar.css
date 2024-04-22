@@ -21,7 +21,7 @@
 .app__navbar-links {
   flex: 1;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
 
   list-style: none;
@@ -36,7 +36,7 @@
   color: var(--color-grey);
 }
 
-.app__navbar-login {
+/* .app__navbar-login {
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -57,7 +57,7 @@
   width: 1px;
   height: 30px;
   background-color: var(--color-golden);
-}
+} */
 
 .app__navbar-smallscreen {
   display: none;
@@ -124,9 +124,9 @@
     padding: 1rem;
   }
 
-  .app__navbar-login {
+  /* .app__navbar-login {
     display: none;
-  }
+  } */
 
   .app__navbar-logo img {
     width: 150px;

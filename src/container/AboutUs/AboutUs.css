@@ -1,6 +1,6 @@
-.app__aboutus {
+/* .app__aboutus {
   position: relative;
-}
+} */
 
 /* implementazione lettera */
 
@@ -17,12 +17,12 @@
 
 /* implementazione lettera */
 
-.app__aboutus-content {
+/* .app__aboutus-content {
   width: 100%;
   z-index: 2;
-}
+} */
 
-.app__aboutus-content_about {
+/* .app__aboutus-content_about {
   flex: 1;
   display: flex;
   justify-content: flex-end;
@@ -38,16 +38,15 @@
 
 .app__aboutus-content_knife img {
   height: 910px;
-}
+} */
 
 .app__aboutus-content_history {
-  flex: 1;
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
 
-  text-align: left;
+  text-align: center;
 }
 
 .app__aboutus-content_history p, 
