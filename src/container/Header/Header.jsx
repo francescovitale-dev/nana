@@ -1,26 +1,29 @@
+// Header.js
 import React from 'react';
-
+import { useTranslation } from 'react-i18next';
 import { images } from '../../constants';
-import { SubHeading } from '../../components';
+import { SubHeading } from '../../components'; 
 import './Header.css';
 
+const Header = () => {
+  const  { t }  = useTranslation();
 
-const Header = () => (
-  <div className='app__header app__wrapper section__padding' id='home'>
-    <div className='app__wrapper_info'>
-      <SubHeading title="Chase the new flavour" />
-      <h1 className='app__header-h1'>The key to Fine Dining</h1>
-      <p className='p__opensans' style={{ margin: '2rem 0'}}>
-        Always fresh, always tasty. Enjoy our fine
-        dining experience.
-      </p>
-      <button type='button' className='custom__button' ><a href="#menu">Explore Menu</a></button>
-    </div>
+  return (
+    <div className='app__header app__wrapper section__padding' id='home'>
+      <div className='app__wrapper_info'>
+        <SubHeading title={t('header.subHeading')} />
+        <h1 className='app__header-h1'>{t('header.title')}</h1>
+        <p className='p__opensans' style={{ margin: '2rem 0'}}>
+          {t('header.description')}
+        </p>
+        <button type='button' className='custom__button' ><a href="#menu">{t('header.exploreButton')}</a></button>
+      </div>
 
-    <div className='app__wrapper_img'>
-      <img src={images.welcome} alt="header img" />
+      <div className='app__wrapper_img'>
+        <img src={images.welcome} alt="header img" />
+      </div>
     </div>
-  </div>
-);
+  );
+};
 
 export default Header;

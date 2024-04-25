@@ -1,0 +1,95 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "About",
+    "menu": "Menu",
+    "contact": "Contact"
+  },
+  "header": {
+    "subHeading": "Chase the new flavour",
+    "title": "The key to Fine Dining",
+    "description": "Always fresh, always tasty. Enjoy our fine dining experience.",
+    "exploreButton": "Explore Menu"
+  },
+  "aboutUs": {
+    "ourStory": "Our Story",
+    "description1": "Naná is more than just a restaurant, it's a culinary journey nestled in the heart of Westend, Frankfurt.",
+    "description2": "From the moment you step inside, you are enveloped in an atmosphere of warmth and elegance, where every detail has been carefully crafted to elevate your dining experience.",
+    "description3": "Whether you're joining us for a romantic dinner, a celebration with friends, or a quiet moment of indulgence, we invite you to savor the flavors, share in the laughter, and create unforgettable memories at Naná."
+  },
+  "menu": {
+    "specialMenu": {
+      "title": "Menu tailored to your palate",
+      "specials": "Chef's Suggestions",
+      "foodHeading": "Food",
+      "wineHeading": "Wine"
+    },
+    "food": [
+      {
+        "title": "Grilled Beef Fillet",
+        "description": "Delicious grilled beef fillet, served with duchess potatoes, crispy asparagus, and a red wine reduction.",
+        "price": "25"
+      },
+      {
+        "title": "Gnocchi with Black Truffle",
+        "description": "Homemade gnocchi, enriched with a velvety black truffle sauce, finely garnished with Parmesan shavings.",
+        "price": "18"
+      },
+      {
+        "title": "Saltimbocca alla Romana",
+        "description": "Elegant veal slices, wrapped in Parma ham and sage leaves, perfectly cooked in a white wine and chicken broth reduction.",
+        "price": "14"
+      },
+      {
+        "title": "Seafood Risotto",
+        "description": "A delicious creamy risotto, enriched with a selection of fine fresh seafood, seasoned with fresh parsley and a touch of lemon.",
+        "price": "30"
+      },
+      {
+        "title": "Beef Tagliata with Balsamic Reduction",
+        "description": "A succulent beef tagliata, served on a bed of fresh arugula, confit tomatoes, and glazed with a delicate balsamic reduction.",
+        "price": "22"
+      }
+    ],
+    "wines": [
+      {
+        "title": "Chianti Classico",
+        "price": "60",
+        "tags": "IT | 750 ml"
+      },
+      {
+        "title": "Rioja Reserva",
+        "price": "70",
+        "tags": "ES | 750 ml"
+      },
+      {
+        "title": "Amarone della Valpolicella",
+        "price": "80",
+        "tags": "IT | 750 ml"
+      },
+      {
+        "title": "Chablis Premier Cru",
+        "price": "75",
+        "tags": "FR | 750 ml"
+      },
+      {
+        "title": "Barolo Riserva",
+        "price": "100",
+        "tags": "IT | 750 ml"
+      },
+      {
+        "title": "Brunello di Montalcino",
+        "price": "120",
+        "tags": "IT | 750 ml"
+      }
+    ]
+  },
+  "chef": {
+    "title": "Chef's Word",
+    "beliefTitle": "What We Believe In",
+    "quote": "Our culinary philosophy is based on three fundamental pillars: passion, quality, and tradition.",
+    "content": "We strive every day to create dishes that not only satisfy the palate but also convey our deep respect for ingredients, culinary culture, and the gastronomic experience as a whole. We believe in the power of food to bring people together, to create moments of joy, and to celebrate life. With commitment and dedication, we pursue our mission of offering extraordinary culinary experiences that leave a lasting impression on anyone who walks through the doors of our restaurant. Thank you for choosing to share this passion with us. Enjoy your meal!",
+    "name": "Salvo Maggiore",
+    "role": "Chef & Co-Founder"
+  }
+}

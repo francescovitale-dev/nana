@@ -1,5 +1,6 @@
 import React from 'react';
 
+import './i18n.js';
 import { AboutUs, Chef, FindUs, Footer, Header, Intro, SpecialMenu } from './container';
 import { Navbar } from './components';
 import './App.css';

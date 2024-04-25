@@ -17,6 +17,12 @@
   margin-top: 0.2rem;
 }
 
+.app__menuitem-sub p {
+  width: 100%;
+  margin-top: 0.2rem;
+  text-transform: none;
+}
+
 .app__menuitem-name {
   flex: 1;
 }

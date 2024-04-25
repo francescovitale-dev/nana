@@ -1,0 +1,95 @@
+{
+  "navbar": {
+    "home": "Startseite",
+    "about": "Über uns",
+    "menu": "Menü",
+    "contact": "Kontakt"
+  },
+  "header": {
+    "subHeading": "Jagen Sie den neuen Geschmack",
+    "title": "Der Schlüssel zu feinem Essen",
+    "description": "Immer frisch, immer lecker. Genießen Sie unsere feine kulinarische Erfahrung.",
+    "exploreButton": "Menü erkunden"
+  },
+  "aboutUs": {
+    "ourStory": "Unsere Geschichte",
+    "description1": "Naná ist mehr als nur ein Restaurant, es ist eine kulinarische Reise, die im Herzen des Westend in Frankfurt liegt.",
+    "description2": "Von dem Moment an, in dem Sie eintreten, werden Sie in eine Atmosphäre aus Wärme und Eleganz gehüllt, in der jedes Detail sorgfältig ausgearbeitet wurde, um Ihr kulinarisches Erlebnis zu bereichern.",
+    "description3": "Ob Sie uns für ein romantisches Abendessen, eine Feier mit Freunden oder einen ruhigen Moment der Entspannung besuchen - wir laden Sie ein, die Aromen zu genießen, sich am Lachen zu beteiligen und unvergessliche Erinnerungen bei Naná zu schaffen."
+  },
+  "menu": {
+    "specialMenu": {
+      "title": "Speisekarte nach Ihrem Geschmack",
+      "specials": "Empfehlungen des Küchenchefs",
+      "foodHeading": "Speisen",
+      "wineHeading": "Wein"
+    },
+    "food": [
+      {
+        "title": "Gegrilltes Rinderfilet",
+        "description": "Köstliches gegrilltes Rinderfilet, serviert mit Herzogin-Kartoffeln, knusprigem Spargel und einer Rotweinreduktion.",
+        "price": "25 "
+      },
+      {
+        "title": "Gnocchi mit Schwarzem Trüffel",
+        "description": "Hausgemachte Gnocchi, verfeinert mit einer samtigen Sauce aus schwarzen Trüffeln, fein garniert mit Parmesanspänen.",
+        "price": "18 "
+      },
+      {
+        "title": "Saltimbocca alla Romana",
+        "description": "Feine Kalbfleischscheiben, umhüllt von Parmaschinken und Salbeiblättern, perfekt gegart in einer Reduktion aus Weißwein und Hühnerbrühe.",
+        "price": "14 "
+      },
+      {
+        "title": "Meeresfrüchte-Risotto",
+        "description": "Ein köstliches cremiges Risotto, verfeinert mit einer Auswahl feiner frischer Meeresfrüchte, gewürzt mit frischer Petersilie und einem Hauch von Zitrone.",
+        "price": "30 "
+      },
+      {
+        "title": "Rinder-Tagliata mit Balsamico-Reduktion",
+        "description": "Eine saftige Rinder-Tagliata, serviert auf einem Bett aus frischem Rucola, confierten Tomaten und glasiert mit einer zarten Balsamico-Reduktion.",
+        "price": "22 "
+      }
+    ],
+    "wines": [
+      {
+        "title": "Chianti Classico",
+        "price": "60 ",
+        "tags": "IT | 750 ml"
+      },
+      {
+        "title": "Rioja Reserva",
+        "price": "70 ",
+        "tags": "ES | 750 ml"
+      },
+      {
+        "title": "Amarone della Valpolicella",
+        "price": "80 ",
+        "tags": "IT | 750 ml"
+      },
+      {
+        "title": "Chablis Premier Cru",
+        "price": "75 ",
+        "tags": "FR | 750 ml"
+      },
+      {
+        "title": "Barolo Riserva",
+        "price": "100 ",
+        "tags": "IT | 750 ml"
+      },
+      {
+        "title": "Brunello di Montalcino",
+        "price": "120 ",
+        "tags": "IT | 750 ml"
+      }
+    ]
+  },
+    "chef": {
+      "title": "Wort des Kochs",
+      "beliefTitle": "Woran wir glauben",
+      "quote": "Unsere kulinarische Philosophie basiert auf drei grundlegenden Säulen: Leidenschaft, Qualität und Tradition.",
+      "content": "Wir bemühen uns jeden Tag, Gerichte zu kreieren, die nicht nur den Gaumen befriedigen, sondern auch unseren tiefen Respekt für Zutaten, kulinarische Kultur und die gastronomische Erfahrung als Ganzes vermitteln. Wir glauben an die Kraft des Essens, Menschen zusammenzubringen, Freude zu schaffen und das Leben zu feiern. Mit Engagement und Hingabe verfolgen wir unsere Mission, außergewöhnliche kulinarische Erlebnisse anzubieten, die jedem, der durch die Türen unseres Restaurants geht, einen bleibenden Eindruck hinterlassen. Vielen Dank, dass Sie sich entschieden haben, diese Leidenschaft mit uns zu teilen. Guten Appetit!",
+      "name": "Salvo Maggiore",
+      "role": "Chef & Co-Founder"
+    }
+}
