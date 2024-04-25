@@ -18,7 +18,7 @@ const Footer = () => {
 
         <div className="app__footer-links_logo">
           <img src={images.nana} alt="footer_logo" />
-          <p className="p__opensans">{t('footer.logoQuote')}</p>
+          <p className="p__opensans" style={{ textTransform: 'none'}}>{t('footer.logoQuote')}</p>
           <img src={images.spoon} className="spoon__img" style={{ marginTop: 15 }} />
           <div className="app__footer-links_icons">
             <FiFacebook />
