@@ -91,5 +91,27 @@
     "content": "We strive every day to create dishes that not only satisfy the palate but also convey our deep respect for ingredients, culinary culture, and the gastronomic experience as a whole. We believe in the power of food to bring people together, to create moments of joy, and to celebrate life. With commitment and dedication, we pursue our mission of offering extraordinary culinary experiences that leave a lasting impression on anyone who walks through the doors of our restaurant. Thank you for choosing to share this passion with us. Enjoy your meal!",
     "name": "Salvo Maggiore",
     "role": "Chef & Co-Founder"
+  },
+  "contact": {
+    "title": "Contact",
+    "findUsTitle": "Find Us",
+    "address": "Grüneburgweg 95, 60323 Frankfurt am Main",
+    "email": "Email: info@nanáconvivial.de",
+    "phone": "Phone: +49 1234567890",
+    "openingHoursTitle": "Opening Hours",
+    "openingHoursMonFri": "Mon - Fri: 10:00 am - 02:00 am",
+    "openingHoursSatSun": "Saturday - Sunday: Closed",
+    "visitButton": "Visit Us"
+  },
+  "footer": {
+    "contactTitle": "Contact Us",
+    "phone": "+49 1234567890",
+    "email": "info@nanáconvivial.de",
+    "logoQuote": "\"The best way to find yourself is to lose yourself in the service of others.\"",
+    "workingHoursTitle": "Working Hours",
+    "monFriHours": "Monday-Friday:",
+    "satSunHours": "Saturday-Sunday:",
+    "closed": "Closed",
+    "rightsReserved": "2024 Naná. All Rights reserved."
   }
 }

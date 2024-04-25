@@ -84,12 +84,34 @@
       }
     ]
   },
-    "chef": {
-      "title": "Wort des Kochs",
-      "beliefTitle": "Woran wir glauben",
-      "quote": "Unsere kulinarische Philosophie basiert auf drei grundlegenden Säulen: Leidenschaft, Qualität und Tradition.",
-      "content": "Wir bemühen uns jeden Tag, Gerichte zu kreieren, die nicht nur den Gaumen befriedigen, sondern auch unseren tiefen Respekt für Zutaten, kulinarische Kultur und die gastronomische Erfahrung als Ganzes vermitteln. Wir glauben an die Kraft des Essens, Menschen zusammenzubringen, Freude zu schaffen und das Leben zu feiern. Mit Engagement und Hingabe verfolgen wir unsere Mission, außergewöhnliche kulinarische Erlebnisse anzubieten, die jedem, der durch die Türen unseres Restaurants geht, einen bleibenden Eindruck hinterlassen. Vielen Dank, dass Sie sich entschieden haben, diese Leidenschaft mit uns zu teilen. Guten Appetit!",
-      "name": "Salvo Maggiore",
-      "role": "Chef & Co-Founder"
-    }
+  "chef": {
+    "title": "Wort des Kochs",
+    "beliefTitle": "Woran wir glauben",
+    "quote": "Unsere kulinarische Philosophie basiert auf drei grundlegenden Säulen: Leidenschaft, Qualität und Tradition.",
+    "content": "Wir bemühen uns jeden Tag, Gerichte zu kreieren, die nicht nur den Gaumen befriedigen, sondern auch unseren tiefen Respekt für Zutaten, kulinarische Kultur und die gastronomische Erfahrung als Ganzes vermitteln. Wir glauben an die Kraft des Essens, Menschen zusammenzubringen, Freude zu schaffen und das Leben zu feiern. Mit Engagement und Hingabe verfolgen wir unsere Mission, außergewöhnliche kulinarische Erlebnisse anzubieten, die jedem, der durch die Türen unseres Restaurants geht, einen bleibenden Eindruck hinterlassen. Vielen Dank, dass Sie sich entschieden haben, diese Leidenschaft mit uns zu teilen. Guten Appetit!",
+    "name": "Salvo Maggiore",
+    "role": "Chef & Co-Founder"
+  },
+    "contact": {
+      "title": "Kontakt",
+      "findUsTitle": "Besuchen Sie uns",
+      "address": "Grüneburgweg 95, 60323 Frankfurt am Main",
+      "email": "E-Mail: info@nanáconvivial.de",
+      "phone": "Telefon: +49 1234567890",
+      "openingHoursTitle": "Öffnungszeiten",
+      "openingHoursMonFri": "Mo - Fr: 10:00 - 02:00",
+      "openingHoursSatSun": "Sa - So: Geschlossen",
+      "visitButton": "Besuche uns"
+    },
+    "footer": {
+    "contactTitle": "Kontaktiere uns",
+    "phone": "+49 1234567890",
+    "email": "info@nanáconvivial.de",
+    "logoQuote": "\"Der beste Weg, sich selbst zu finden, ist sich im Dienst anderer zu verlieren.\"",
+    "workingHoursTitle": "Arbeitszeiten",
+    "monFriHours": "Montag-Freitag:",
+    "satSunHours": "Samstag-Sonntag:",
+    "closed": "Geschlossen",
+    "rightsReserved": "2024 Naná. Alle Rechte vorbehalten."
+  }
 }
