@@ -10,11 +10,12 @@
     "description": "SEMPRE FRESCO & DELIZIOSO - IL MEGLIO DELLA CUCINA ITALIANA."
   },
   "aboutUs": {
-    "ourStory": "La Nostra Storia",
-    "description1": "Naná è molto più di un semplice ristorante, è un viaggio culinario situato nel cuore di Westend, Francoforte.",
-    "description2": "Dal momento in cui metti piede dentro, ti immergi in un'atmosfera di calore ed eleganza, dove ogni dettaglio è stato attentamente studiato per elevare la tua esperienza culinaria.",
-    "description3": "Che tu stia venendo per una cena romantica, una festa con gli amici o un momento di relax, ti invitiamo a gustare i sapori, a condividere le risate e a creare ricordi indimenticabili da Naná."
-  },
+    "ourStory": "CHI SIAMO",
+    "description1": "Naná è molto più di un semplice ristorante - è un viaggio squisito nel mondo della cucina italiana. Situato nel cuore di <span class='highlight'>Westend a Francoforte</span>, vi aspetta un'atmosfera calda che cura ogni dettaglio con attenzione per arricchire la vostra esperienza culinaria.",
+    "description2": "Deliziate tutti i vostri sensi. La nostra squisita carta dei vini offre una selezione dei migliori vini italiani, perfettamente abbinati ai nostri piatti squisiti preparati con ingredienti freschissimi e di altissima qualità.",
+    "description3": "Che ci visitiate per una cena romantica, una gioiosa celebrazione con amici o un tranquillo momento di relax - vi invitiamo a gustare i sapori squisiti dell'Italia, condividere momenti sinceri e creare ricordi indimenticabili da Naná.",
+    "description4": "Il nostro team dedicato è pronto a offrirvi una serata indimenticabile. Lasciatevi coccolare dal nostro servizio di prima classe e godetevi un viaggio italiano che vi farà tornare da noi ancora e ancora."
+  },  
   "menu": {
     "specialMenu": {
       "title": "Menu che si adatta al tuo palato",
@@ -104,7 +105,7 @@
   "footer": {
     "contactTitle": "Contattaci",
     "phone": "+49 1234567890",
-    "email": "info@nanáconvivial.de",
+    "email": "info@nanaconvivial.de",
     "logoQuote": "\"Il modo migliore per trovare se stessi è perdersi nel servizio degli altri.\"",
     "workingHoursTitle": "Orari di Apertura",
     "monFriHours": "Lunedì-Venerdì:",

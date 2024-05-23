@@ -11,10 +11,11 @@ const AboutUs = () => {
       <div className="app__aboutus-content flex__center">
         <div className="app__aboutus-content_history">
           <h1 className="headtext__cormorant">{t("aboutUs.ourStory")}</h1>
-          <img src={images.spoon} alt="about_spoon" className="spoon__img" />
-          <p className="p__opensans">{t("aboutUs.description1")}</p>
-          <p className="p__opensans">{t("aboutUs.description2")}</p>
-          <p className="p__opensans">{t("aboutUs.description3")}</p>
+          <img src={images.mano} alt="about_mano" className="mano__img" />
+          <p className="abeezee-regular" dangerouslySetInnerHTML={{ __html: t("aboutUs.description1") }}></p>
+          <p className="abeezee-regular">{t("aboutUs.description2")}</p>
+          <p className="abeezee-regular">{t("aboutUs.description3")}</p>
+          <p className="abeezee-regular">{t("aboutUs.description4")}</p>
         </div>
       </div>
     </div>

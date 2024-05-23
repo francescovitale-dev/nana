@@ -10,11 +10,12 @@
     "description": "ALWAYS FRESH & DELICIOUS - THE BEST OF ITALIAN CUISINE."
   },
   "aboutUs": {
-    "ourStory": "Our Story",
-    "description1": "Naná is more than just a restaurant, it's a culinary journey nestled in the heart of Westend, Frankfurt.",
-    "description2": "From the moment you step inside, you are enveloped in an atmosphere of warmth and elegance, where every detail has been carefully crafted to elevate your dining experience.",
-    "description3": "Whether you're joining us for a romantic dinner, a celebration with friends, or a quiet moment of indulgence, we invite you to savor the flavors, share in the laughter, and create unforgettable memories at Naná."
-  },
+    "ourStory": "ABOUT US",
+    "description1": "Naná is much more than just a restaurant - it is an exquisite journey into the world of Italian cuisine. Located in the heart of <span class='highlight'>Westend in Frankfurt</span>, you will find a warm atmosphere that carefully crafts every detail to enrich your culinary experience.",
+    "description2": "Indulge all your senses. Our exquisite wine list offers a selection of the best Italian wines, perfectly paired with our exquisite dishes made from the freshest and highest quality ingredients.",
+    "description3": "Whether you visit us for a romantic dinner, a joyful celebration with friends, or a quiet moment of relaxation - we invite you to enjoy the exquisite flavors of Italy, share heartfelt moments, and create unforgettable memories at Naná.",
+    "description4": "Our dedicated team is ready to provide you with an unforgettable evening. Let yourself be pampered by our first-class service and enjoy an Italian journey that will keep you coming back to us again and again."
+  },  
   "menu": {
     "specialMenu": {
       "title": "Menu tailored to your palate",
@@ -104,7 +105,7 @@
   "footer": {
     "contactTitle": "Contact Us",
     "phone": "+49 1234567890",
-    "email": "info@nanáconvivial.de",
+    "email": "info@nanaconvivial.de",
     "logoQuote": "\"The best way to find yourself is to lose yourself in the service of others.\"",
     "workingHoursTitle": "Working Hours",
     "monFriHours": "Monday-Friday:",
