@@ -1,20 +1,21 @@
-.app__header {
-  background-color: var(--color-black);
+@font-face {
+  font-family: 'JonathanSignature';
+  src: url('../../font/JonathanSignature.ttf') format('truetype');
+  /* Aggiungi altri formati del font se disponibili */
 }
 
+.classeOIdentificatore {
+  font-family: 'JonathanSignature', cursive; /* Usa il font Jonathan Signature */
+}
 
 .app__header-h1 {
-  font-family: var(--font-base);
-  color: var(--color-golden);
-  font-weight: 700;
+  font-family: 'JonathanSignature', cursive;
+  color: var(--color-white);
+  font-weight: 500;
   letter-spacing: 0.04em;
   text-transform: capitalize;
   line-height: 117px;
   font-size: 90px;
-}
-
-.app__header-img img {
-  width: 80%;
 }
 
 @media screen and (min-width: 2000px) {

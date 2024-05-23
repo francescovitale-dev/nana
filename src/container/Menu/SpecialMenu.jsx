@@ -1,6 +1,6 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import { SubHeading, MenuItem } from "../../components";
+// import { SubHeading, MenuItem } from "../../components";
 import { images } from "../../constants";
 
 // Importa il file JSON della lingua corretta
@@ -33,7 +33,7 @@ console.log(menuData.menu);
   return (
     <div className="app__specialMenu flex__center section__padding" id="menu">
       <div className="app__specialMenu-title">
-        <SubHeading title={t("menu.specialMenu.title")} />
+        {/* <SubHeading title={t("menu.specialMenu.title")} /> */}
         <h1 className="headtext__cormorant">{t("menu.specialMenu.specials")}</h1>
       </div>
 

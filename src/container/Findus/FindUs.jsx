@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { SubHeading } from '../../components';
+// import { SubHeading } from '../../components';
 import { images } from '../../constants';
 
 const FindUs = () => {
@@ -9,7 +9,7 @@ const FindUs = () => {
   return (
     <div className="app__bg app__wrapper section__padding" id="contact">
       <div className="app__wrapper_info">
-        <SubHeading title={t('contact.title')} />
+        {/* <SubHeading title={t('contact.title')} /> */}
         <h1 className="headtext__cormorant" style={{ marginBottom: '3rem' }}>{t('contact.findUsTitle')}</h1>
         <div className="app__wrapper-content">
           <p className="p__opensans">{t('contact.address')}</p>

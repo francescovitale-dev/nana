@@ -17,6 +17,8 @@ import quote from '../assets/quote.png';
 import logonb from '../assets/logonb.png';
 import logo from '../assets/logo.png';
 import nana from '../assets/nana.png';
+import mano from '../assets/mano.svg';
+import imgbackground from '../assets/imgbackground.png';
 
 export default {
   bg,
@@ -37,5 +39,7 @@ export default {
   quote,
   logonb,
   logo,
-  nana
+  nana,
+  mano,
+  imgbackground
 };

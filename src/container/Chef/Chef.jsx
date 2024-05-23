@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { SubHeading } from '../../components';
+// import { SubHeading } from '../../components';
 import { images } from '../../constants';
 import './Chef.css';
 
@@ -13,7 +13,7 @@ const Chef = () => {
         <img src={images.chef} alt="chef_image" className="chef_img" />
       </div>
       <div className="app__wrapper_info">
-        <SubHeading title={t('chef.title')} />
+        {/* <SubHeading title={t('chef.title')} /> */}
         <h1 className="headtext__cormorant">{t('chef.beliefTitle')}</h1>
 
         <div className="app__chef-content">
