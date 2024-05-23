@@ -15,7 +15,7 @@ i18n
     lng: 'de', // Lingua predefinita
     fallbackLng: 'de', // Lingua di fallback
     interpolation: {
-      escapeValue: false, // Non escapare HTML nei testi
+      escapeValue: false, 
     },
   });
 

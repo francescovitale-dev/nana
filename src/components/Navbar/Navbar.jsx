@@ -21,48 +21,65 @@ const Navbar = () => {
 
   return (
     <nav className="app__navbar">
-      <div className="app__navbar-logo">
-        <img src={images.logonobgold} alt="app logo" />
-      </div>
-      <ul className="app__navbar-links">
-        <li className="p__opensans">
+      <ul className="app__navbar-links-left">
+        <li className="p__cormorant">
           <a href="#home" onClick={handleLinkClick}>
             {t("navbar.home")}
           </a>
         </li>
-        <li className="p__opensans">
+        <li className="p__cormorant">
           <a href="#about" onClick={handleLinkClick}>
             {t("navbar.about")}
           </a>
         </li>
-        <li className="p__opensans">
+      </ul>
+      
+      <div className="app__navbar-logo">
+        <img src={images.logo} alt="app logo"/>
+      </div>
+
+      <ul className="app__navbar-links-right">
+
+        <li className="p__cormorant">
           <a href="#menu" onClick={handleLinkClick}>
             {t("navbar.menu")}
           </a>
         </li>
-        {/* <li className="p__opensans">
-          <a href="#awards">Awards</a>
-        </li> */}
-        <li className="p__opensans">
+        <li className="p__cormorant link-contact">
           <a href="#contact" onClick={handleLinkClick}>
             {t("navbar.contact")}
           </a>
         </li>
-      </ul>
-      <div className="app__navbar-language">
-        <button className="language__button" onClick={() => changeLanguage("de")}>
+        <div className="app__navbar-language">
+        <button className="language__button p__cormorant" onClick={() => changeLanguage("de")}>
           DE
         </button>
         <div/>
-        <button className="language__button" onClick={() => changeLanguage("en")}>
+        <button className="language__button p__cormorant" onClick={() => changeLanguage("en")}>
           EN
         </button>
         <div/>
-        <button className="language__button" onClick={() => changeLanguage("it")}>
+        <button className="language__button p__cormorant" onClick={() => changeLanguage("it")}>
           IT
         </button>
       </div>
+      </ul>
+
+      {/* small screen */}
       <div className="app__navbar-smallscreen">
+      <div className="app__navbar-language-smallscreen">
+        <button className="language__button p__cormorant" onClick={() => changeLanguage("de")}>
+          DE
+        </button>
+        <div/>
+        <button className="language__button p__cormorant" onClick={() => changeLanguage("en")}>
+          EN
+        </button>
+        <div/>
+        <button className="language__button p__cormorant" onClick={() => changeLanguage("it")}>
+          IT
+        </button>
+      </div>
         <GiHamburgerMenu
           color="#fff"
           fontSize={27}
@@ -77,25 +94,22 @@ const Navbar = () => {
               onClick={() => setToggleMenu(false)}
             />
             <ul className="app__navbar-smallscreen_links">
-              <li className="p__opensans">
+              <li className="p__cormorant">
                 <a href="#home" onClick={handleLinkClick}>
                   {t("navbar.home")}
                 </a>
               </li>
-              <li className="p__opensans">
+              <li className="p__cormorant">
                 <a href="#about" onClick={handleLinkClick}>
                   {t("navbar.about")}
                 </a>
               </li>
-              <li className="p__opensans">
+              <li className="p__cormorant">
                 <a href="#menu" onClick={handleLinkClick}>
                   {t("navbar.menu")}
                 </a>
               </li>
-              {/* <li className="p__opensans">
-                <a href="#awards">Awards</a>
-              </li> */}
-              <li className="p__opensans">
+              <li className="p__cormorant">
                 <a href="#contact" onClick={handleLinkClick}>
                   {t("navbar.contact")}
                 </a>

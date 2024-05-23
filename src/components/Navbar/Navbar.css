@@ -1,7 +1,7 @@
 .app__navbar {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   background: var(--color-black);
 
@@ -10,36 +10,54 @@
 
 .app__navbar-logo {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
 }
 
 .app__navbar-logo img {
-  width: 150px;
+  width: 130px;
+  margin: 0 1rem;
 }
 
-.app__navbar-links {
+.app__navbar-links-left,
+.app__navbar-links-right {
   flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
 
   list-style: none;
+  transform: translateY(-2rem);
 }
 
-.app__navbar-links li {
-  margin: 0 1rem;
+.app__navbar-links-left {
+  justify-content: flex-end;
+}
+
+.app__navbar-links-right {
+  justify-content: flex-start;
+}
+
+.app__navbar-links-left,
+.app__navbar-links-right, li {
+  margin: 0rem 1rem;
   cursor: pointer;
 }
 
-.app__navbar-links li:hover {
+.app__navbar-links-left,
+.app__navbar-links-right, li:hover {
   color: var(--color-grey);
+}
+
+.link-contact {
+  margin-right: 5rem;
 }
 
 .app__navbar-language {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  margin: 0;
 }
 
 .language__button {
@@ -50,18 +68,18 @@
   color: #fff; 
   font-size: 16px;
   cursor: pointer; 
-  transition: border-bottom 0.5s ease; 
+  /* transition: 0.5s ease;  */
 }
 
 .language__button:hover {
-  border-bottom: 1px solid var(--color-golden); 
+  border-bottom: 1px solid #4f643e; 
 }
 
 
 .app__navbar-language div {
   width: 1px;
   height: 30px;
-  background: var(--color-golden);
+  background: #4f643e;
 }
 
 .app__navbar-smallscreen {
@@ -108,14 +126,22 @@
   color: var(--color-white);
 }
 
-@media screen and (min-width: 2000px) {
-  .app__navbar-logo img {
-      width: 210px;
-  }
+.app__navbar-language-smallscreen {
+  display: flex;
+  transform: translateY(-5px);
+  margin-right: 2rem;
+}
+
+.app__navbar-language-smallscreen div {
+  width: 1px;
+  height: 30px;
+  background: #4f643e;
 }
 
 @media screen and (max-width: 1150px) {
-  .app__navbar-links {
+  .app__navbar-links-left,
+  .app__navbar-links-right, 
+  .app__navbar-language {
       display: none;
   }
 
@@ -129,11 +155,7 @@
       padding: 1rem;
   }
 
-  .app__navbar-login {
-      display: none;
-  }
-
   .app__navbar-logo img {
-      width: 110px;
+      width: 80px;
   }
 }

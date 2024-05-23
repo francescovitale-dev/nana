@@ -15,7 +15,7 @@ import findus from '../assets/findus.png';
 import sign from '../assets/sign.png';
 import quote from '../assets/quote.png';
 import logonb from '../assets/logonb.png';
-import logonobgold from '../assets/logonobgold.png';
+import logo from '../assets/logo.png';
 import nana from '../assets/nana.png';
 
 export default {
@@ -36,6 +36,6 @@ export default {
   sign,
   quote,
   logonb,
-  logonobgold,
+  logo,
   nana
 };
