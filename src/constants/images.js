@@ -19,6 +19,7 @@ import logo from '../assets/logo.png';
 import nana from '../assets/nana.png';
 import mano from '../assets/mano.svg';
 import imgbackground from '../assets/imgbackground.png';
+import backgroundmenu from '../assets/backgroundmenu.svg';
 
 export default {
   bg,
@@ -41,5 +42,6 @@ export default {
   logo,
   nana,
   mano,
-  imgbackground
+  imgbackground,
+  backgroundmenu
 };
