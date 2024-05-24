@@ -27,7 +27,7 @@
   bottom: 0; /* Allinea la linea al fondo della sezione */
   left: 0; /* Allinea la linea all'inizio della sezione */
   width: 100%; /* Larghezza al 100% del contenitore principale */
-  height: 3px;
+  height: 1px;
   background-color: #4f643e; /* Colore verde */
 }
 
