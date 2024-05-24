@@ -84,12 +84,10 @@
     ]
   },
   "chef": {
-    "title": "Chef's Word",
-    "beliefTitle": "What We Believe In",
-    "quote": "Our culinary philosophy is based on three fundamental pillars: passion, quality, and tradition.",
-    "content": "We strive every day to create dishes that not only satisfy the palate but also convey our deep respect for ingredients, culinary culture, and the gastronomic experience as a whole. We believe in the power of food to bring people together, to create moments of joy, and to celebrate life. With commitment and dedication, we pursue our mission of offering extraordinary culinary experiences that leave a lasting impression on anyone who walks through the doors of our restaurant. Thank you for choosing to share this passion with us. Enjoy your meal!",
+    "beliefTitle": "Chef's Word",
+    "quote": "Our culinary philosophy is based on three fundamental pillars: passion, quality, and tradition. We strive every day to create dishes that not only satisfy the palate but also convey our deep respect for ingredients, culinary culture, and the gastronomic experience as a whole. We believe in the power of food to bring people together, to create moments of joy, and to celebrate life. With commitment and dedication, we pursue our mission of offering extraordinary culinary experiences that leave a lasting impression on anyone who walks through the doors of our restaurant. Thank you for choosing to share this passion with us. Enjoy your meal!",
     "name": "Salvo Maggiore",
-    "role": "Chef & Co-Founder"
+    "role": "CHEF & CO-FOUNDER"
   },
   "contact": {
     "title": "Contact",

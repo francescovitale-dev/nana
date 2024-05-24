@@ -1,8 +1,34 @@
+.app__chef-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.app__chef-img,
+.app__chef-description {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center; /* Aggiunto per centrare il testo */
+}
+
+.app__chef-description {
+  padding-left: 2rem; /* Aggiunto uno spazio tra l'immagine e la descrizione */
+}
+
+.chef_img {
+  border: 2px solid #4f643e;
+  border-radius: 50%;
+  width: 25rem;
+  height: 25rem;
+  object-fit: cover; /* Aggiunto per adattare l'immagine */
+}
+
 .app__chef-content {
   display: flex;
   flex-direction: column;
   width: 100%;
-
   margin-top: 5rem;
 }
 
@@ -16,16 +42,11 @@
   align-items: flex-end;
 }
 
-.chef_img {
-  border: 8px solid var(--color-golden);
-  border-radius: 60%;
-}
-
-.app__chef-content_quote img {
+/* .app__chef-content img {
   width: 47px;
   height: 40px;
   margin: 0 1rem 1rem 0;
-}
+} */
 
 .app__chef-sign {
   width: 100%;
@@ -39,7 +60,7 @@
   line-height: 41.6px;
   letter-spacing: 0.04em;
   text-transform: capitalize;
-  color: var(--color-golden);
+  color: var(--color-white);
 }
 
 .app__chef-sign img {
@@ -47,14 +68,44 @@
   margin-top: 1rem;
 }
 
-@media screen and (min-width: 2000px) {
+/* Per dispositivi fino a 900px di larghezza */
+@media screen and (max-width: 900px) {
+  .app__chef-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .app__chef-img {
+    margin-bottom: 2rem;
+  }
+
+  .app__chef-description {
+    padding-left: 0; /* Rimuovi lo spazio tra l'immagine e la descrizione sui dispositivi più piccoli */
+  }
+
+  .chef_img {
+    width: 15rem;
+    height: 15rem;
+  }
+
   .app__chef-sign img {
-      width: 370px;
+    width: 80%;
   }
 }
 
-@media screen and (max-width: 450px) {
+/* Per dispositivi da 768px a 1023px di larghezza */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   .app__chef-sign img {
-      width: 80%;
+    width: 60%;
   }
 }
+
+/* Per dispositivi da 1024px in su di larghezza */
+@media screen and (min-width: 1024px) {
+  .app__chef-sign img {
+    width: 370px;
+  }
+}
+
+
+

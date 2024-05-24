@@ -84,12 +84,10 @@
     ]
   },
   "chef": {
-    "title": "Wort des Kochs",
-    "beliefTitle": "Woran wir glauben",
-    "quote": "Unsere kulinarische Philosophie basiert auf drei grundlegenden Säulen: Leidenschaft, Qualität und Tradition.",
-    "content": "Wir bemühen uns jeden Tag, Gerichte zu kreieren, die nicht nur den Gaumen befriedigen, sondern auch unseren tiefen Respekt für Zutaten, kulinarische Kultur und die gastronomische Erfahrung als Ganzes vermitteln. Wir glauben an die Kraft des Essens, Menschen zusammenzubringen, Freude zu schaffen und das Leben zu feiern. Mit Engagement und Hingabe verfolgen wir unsere Mission, außergewöhnliche kulinarische Erlebnisse anzubieten, die jedem, der durch die Türen unseres Restaurants geht, einen bleibenden Eindruck hinterlassen. Vielen Dank, dass Sie sich entschieden haben, diese Leidenschaft mit uns zu teilen. Guten Appetit!",
+    "beliefTitle": "WORTE VOM KÜCHENCHEF",
+    "quote": "Unsere kulinarische Philosophie basiert auf drei grundlegenden Säulen: Leidenschaft, Qualität und Tradition. Wir bemühen uns jeden Tag, Gerichte zu kreieren, die nicht nur den Gaumen befriedigen, sondern auch unseren tiefen Respekt für Zutaten, kulinarische Kultur und die gastronomische Erfahrung als Ganzes vermitteln. Wir glauben an die Kraft des Essens, Menschen zusammenzubringen, Freude zu schaffen und das Leben zu feiern. Mit Engagement und Hingabe verfolgen wir unsere Mission, außergewöhnliche kulinarische Erlebnisse anzubieten, die jedem, der durch die Türen unseres Restaurants geht, einen bleibenden Eindruck hinterlassen. Vielen Dank, dass Sie sich entschieden haben, diese Leidenschaft mit uns zu teilen. Guten Appetit!",
     "name": "Salvo Maggiore",
-    "role": "Chef & Co-Founder"
+    "role": "CHEF & CO-FOUNDER"
   },
     "contact": {
       "title": "Kontakt",
