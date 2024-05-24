@@ -15,79 +15,17 @@
     "description2": "Deliziate tutti i vostri sensi. La nostra squisita carta dei vini offre una selezione dei migliori vini italiani, perfettamente abbinati ai nostri piatti squisiti preparati con ingredienti freschissimi e di altissima qualità.",
     "description3": "Che ci visitiate per una cena romantica, una gioiosa celebrazione con amici o un tranquillo momento di relax - vi invitiamo a gustare i sapori squisiti dell'Italia, condividere momenti sinceri e creare ricordi indimenticabili da Naná.",
     "description4": "Il nostro team dedicato è pronto a offrirvi una serata indimenticabile. Lasciatevi coccolare dal nostro servizio di prima classe e godetevi un viaggio italiano che vi farà tornare da noi ancora e ancora."
-  },  
-  "menu": {
-    "specialMenu": {
-      "title": "Menu che si adatta al tuo palato",
-      "specials": "Suggerimenti dello Chef",
-      "foodHeading": "Cibo",
-      "wineHeading": "Vino"
-    },
-    "food": [
-      {
-        "title": "Grilled Beef Fillet",
-        "description": "Delizioso filetto di manzo alla griglia, servito con patate duchessa, asparagi croccanti e una riduzione di vino rosso.",
-        "price": "$25"
-      },
-      {
-        "title": "Gnocchi al Tartufo Nero",
-        "description": "Gnocchi fatti in casa, arricchiti con una vellutata salsa al tartufo nero, finemente guarniti con scaglie di Parmigiano Reggiano.",
-        "price": "$18"
-      },
-      {
-        "title": "Saltimbocca alla Romana",
-        "description": "Fettine di vitello avvolte in prosciutto di Parma e foglie di salvia, cotte a perfezione in una riduzione di vino bianco e brodo di pollo.",
-        "price": "$14"
-      },
-      {
-        "title": "Risotto ai Frutti di Mare",
-        "description": "Un delizioso risotto mantecato, arricchito con una selezione di pregiati frutti di mare freschi, conditi con prezzemolo fresco e un tocco di limone.",
-        "price": "$30"
-      },
-      {
-        "title": "Tagliata di Manzo con Riduzione di Balsamico",
-        "description": "Una succulenta tagliata di manzo, servita su un letto di rucola fresca, pomodorini confit e glassata con una delicata riduzione di aceto balsamico.",
-        "price": "$22"
-      }
-    ],
-    "wines": [
-      {
-        "title": "Chianti Classico",
-        "price": "€60",
-        "tags": "IT | 750 ml"
-      },
-      {
-        "title": "Rioja Reserva",
-        "price": "€70",
-        "tags": "ES | 750 ml"
-      },
-      {
-        "title": "Amarone della Valpolicella",
-        "price": "€80",
-        "tags": "IT | 750 ml"
-      },
-      {
-        "title": "Chablis Premier Cru",
-        "price": "€75",
-        "tags": "FR | 750 ml"
-      },
-      {
-        "title": "Barolo Riserva",
-        "price": "€100",
-        "tags": "IT | 750 ml"
-      },
-      {
-        "title": "Brunello di Montalcino",
-        "price": "€120",
-        "tags": "IT | 750 ml"
-      }
-    ]
   },
   "chef": {
     "beliefTitle": "Parola dello Chef",
     "quote": "La nostra filosofia culinaria si basa su tre pilastri fondamentali: passione, qualità e tradizione Ci impegniamo ogni giorno a creare piatti che non solo soddisfino il palato, ma che trasmettano anche il nostro profondo rispetto per gli ingredienti, la cultura culinaria e l'esperienza gastronomica nel suo complesso. Crediamo nel potere del cibo di unire le persone, creare momenti di gioia e celebrare la vita. Con impegno e dedizione, portiamo avanti la nostra missione di offrire esperienze culinarie straordinarie che restino impresse nella memoria di chiunque varchi la soglia del nostro ristorante. Grazie per aver scelto di condividere con noi questa passione. Buon appetito!",
     "name": "Salvo Maggiore",
     "role": "CHEF & CO-FONDATORE"
+  },
+  "menu": {
+    "menuTitle": "MENÙ",
+    "menuDescription": "Raccomandazioni dello chef",
+    "lacarta": "La Carta"
   },
   "contact": {
     "title": "Contatto",
