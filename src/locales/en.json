@@ -15,79 +15,17 @@
     "description2": "Indulge all your senses. Our exquisite wine list offers a selection of the best Italian wines, perfectly paired with our exquisite dishes made from the freshest and highest quality ingredients.",
     "description3": "Whether you visit us for a romantic dinner, a joyful celebration with friends, or a quiet moment of relaxation - we invite you to enjoy the exquisite flavors of Italy, share heartfelt moments, and create unforgettable memories at Naná.",
     "description4": "Our dedicated team is ready to provide you with an unforgettable evening. Let yourself be pampered by our first-class service and enjoy an Italian journey that will keep you coming back to us again and again."
-  },  
-  "menu": {
-    "specialMenu": {
-      "title": "Menu tailored to your palate",
-      "specials": "Chef's Suggestions",
-      "foodHeading": "Food",
-      "wineHeading": "Wine"
-    },
-    "food": [
-      {
-        "title": "Grilled Beef Fillet",
-        "description": "Delicious grilled beef fillet, served with duchess potatoes, crispy asparagus, and a red wine reduction.",
-        "price": "25"
-      },
-      {
-        "title": "Gnocchi with Black Truffle",
-        "description": "Homemade gnocchi, enriched with a velvety black truffle sauce, finely garnished with Parmesan shavings.",
-        "price": "18"
-      },
-      {
-        "title": "Saltimbocca alla Romana",
-        "description": "Elegant veal slices, wrapped in Parma ham and sage leaves, perfectly cooked in a white wine and chicken broth reduction.",
-        "price": "14"
-      },
-      {
-        "title": "Seafood Risotto",
-        "description": "A delicious creamy risotto, enriched with a selection of fine fresh seafood, seasoned with fresh parsley and a touch of lemon.",
-        "price": "30"
-      },
-      {
-        "title": "Beef Tagliata with Balsamic Reduction",
-        "description": "A succulent beef tagliata, served on a bed of fresh arugula, confit tomatoes, and glazed with a delicate balsamic reduction.",
-        "price": "22"
-      }
-    ],
-    "wines": [
-      {
-        "title": "Chianti Classico",
-        "price": "60",
-        "tags": "IT | 750 ml"
-      },
-      {
-        "title": "Rioja Reserva",
-        "price": "70",
-        "tags": "ES | 750 ml"
-      },
-      {
-        "title": "Amarone della Valpolicella",
-        "price": "80",
-        "tags": "IT | 750 ml"
-      },
-      {
-        "title": "Chablis Premier Cru",
-        "price": "75",
-        "tags": "FR | 750 ml"
-      },
-      {
-        "title": "Barolo Riserva",
-        "price": "100",
-        "tags": "IT | 750 ml"
-      },
-      {
-        "title": "Brunello di Montalcino",
-        "price": "120",
-        "tags": "IT | 750 ml"
-      }
-    ]
   },
   "chef": {
     "beliefTitle": "Chef's Word",
     "quote": "Our culinary philosophy is based on three fundamental pillars: passion, quality, and tradition. We strive every day to create dishes that not only satisfy the palate but also convey our deep respect for ingredients, culinary culture, and the gastronomic experience as a whole. We believe in the power of food to bring people together, to create moments of joy, and to celebrate life. With commitment and dedication, we pursue our mission of offering extraordinary culinary experiences that leave a lasting impression on anyone who walks through the doors of our restaurant. Thank you for choosing to share this passion with us. Enjoy your meal!",
     "name": "Salvo Maggiore",
     "role": "CHEF & CO-FOUNDER"
+  },
+  "menu": {
+    "menuTitle": "MENU",
+    "menuDescription": "Chef's Recommendations",
+    "lacarta": "La Carta"
   },
   "contact": {
     "title": "Contact",

@@ -16,91 +16,29 @@
     "description3": "Ob Sie uns für ein romantisches Dinner, eine fröhliche Feier mit Freunden oder einen ruhigen Moment der Entspannung besuchen - wir laden Sie ein, die erlesenen Aromen Italiens zu genießen, herzliche Momente zu teilen und unvergessliche Erinnerungen bei Naná zu schaffen.",
     "description4": "Unser engagiertes Team steht bereit, um Ihnen einen unvergesslichen Abend zu bereiten. Lassen Sie sich von unserem erstklassigen Service verwöhnen und genießen Sie eine italienische Reise, die Sie immer wieder zu uns zurückkehren lässt."
   },
-  "menu": {
-    "specialMenu": {
-      "title": "Speisekarte nach Ihrem Geschmack",
-      "specials": "Empfehlungen des Küchenchefs",
-      "foodHeading": "Speisen",
-      "wineHeading": "Wein"
-    },
-    "food": [
-      {
-        "title": "Gegrilltes Rinderfilet",
-        "description": "Köstliches gegrilltes Rinderfilet, serviert mit Herzogin-Kartoffeln, knusprigem Spargel und einer Rotweinreduktion.",
-        "price": "25 "
-      },
-      {
-        "title": "Gnocchi mit Schwarzem Trüffel",
-        "description": "Hausgemachte Gnocchi, verfeinert mit einer samtigen Sauce aus schwarzen Trüffeln, fein garniert mit Parmesanspänen.",
-        "price": "18 "
-      },
-      {
-        "title": "Saltimbocca alla Romana",
-        "description": "Feine Kalbfleischscheiben, umhüllt von Parmaschinken und Salbeiblättern, perfekt gegart in einer Reduktion aus Weißwein und Hühnerbrühe.",
-        "price": "14 "
-      },
-      {
-        "title": "Meeresfrüchte-Risotto",
-        "description": "Ein köstliches cremiges Risotto, verfeinert mit einer Auswahl feiner frischer Meeresfrüchte, gewürzt mit frischer Petersilie und einem Hauch von Zitrone.",
-        "price": "30 "
-      },
-      {
-        "title": "Rinder-Tagliata mit Balsamico-Reduktion",
-        "description": "Eine saftige Rinder-Tagliata, serviert auf einem Bett aus frischem Rucola, confierten Tomaten und glasiert mit einer zarten Balsamico-Reduktion.",
-        "price": "22 "
-      }
-    ],
-    "wines": [
-      {
-        "title": "Chianti Classico",
-        "price": "60 ",
-        "tags": "IT | 750 ml"
-      },
-      {
-        "title": "Rioja Reserva",
-        "price": "70 ",
-        "tags": "ES | 750 ml"
-      },
-      {
-        "title": "Amarone della Valpolicella",
-        "price": "80 ",
-        "tags": "IT | 750 ml"
-      },
-      {
-        "title": "Chablis Premier Cru",
-        "price": "75 ",
-        "tags": "FR | 750 ml"
-      },
-      {
-        "title": "Barolo Riserva",
-        "price": "100 ",
-        "tags": "IT | 750 ml"
-      },
-      {
-        "title": "Brunello di Montalcino",
-        "price": "120 ",
-        "tags": "IT | 750 ml"
-      }
-    ]
-  },
   "chef": {
     "beliefTitle": "WORTE VOM KÜCHENCHEF",
     "quote": "Unsere kulinarische Philosophie basiert auf drei grundlegenden Säulen: Leidenschaft, Qualität und Tradition. Wir bemühen uns jeden Tag, Gerichte zu kreieren, die nicht nur den Gaumen befriedigen, sondern auch unseren tiefen Respekt für Zutaten, kulinarische Kultur und die gastronomische Erfahrung als Ganzes vermitteln. Wir glauben an die Kraft des Essens, Menschen zusammenzubringen, Freude zu schaffen und das Leben zu feiern. Mit Engagement und Hingabe verfolgen wir unsere Mission, außergewöhnliche kulinarische Erlebnisse anzubieten, die jedem, der durch die Türen unseres Restaurants geht, einen bleibenden Eindruck hinterlassen. Vielen Dank, dass Sie sich entschieden haben, diese Leidenschaft mit uns zu teilen. Guten Appetit!",
     "name": "Salvo Maggiore",
     "role": "CHEF & CO-FOUNDER"
   },
-    "contact": {
-      "title": "Kontakt",
-      "findUsTitle": "Besuchen Sie uns",
-      "address": "Grüneburgweg 95, 60323 Frankfurt am Main",
-      "email": "E-Mail: info@nanáconvivial.de",
-      "phone": "Telefon: +49 1234567890",
-      "openingHoursTitle": "Öffnungszeiten",
-      "openingHoursMonFri": "Mo - Fr: 10:00 - 02:00",
-      "openingHoursSatSun": "Sa - So: Geschlossen",
-      "visitButton": "Besuche uns"
-    },
-    "footer": {
+  "menu": {
+    "menuTitle": "MENÜ",
+    "menuDescription": "Empfehlung des Küchenchefs",
+    "lacarta": "La Carta"
+  },
+  "contact": {
+    "title": "Kontakt",
+    "findUsTitle": "Besuchen Sie uns",
+    "address": "Grüneburgweg 95, 60323 Frankfurt am Main",
+    "email": "E-Mail: info@nanáconvivial.de",
+    "phone": "Telefon: +49 1234567890",
+    "openingHoursTitle": "Öffnungszeiten",
+    "openingHoursMonFri": "Mo - Fr: 10:00 - 02:00",
+    "openingHoursSatSun": "Sa - So: Geschlossen",
+    "visitButton": "Besuche uns"
+  },
+  "footer": {
     "contactTitle": "Kontaktiere uns",
     "phone": "+49 1234567890",
     "email": "info@nanaconvivial.de",
