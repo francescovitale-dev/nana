@@ -18,6 +18,7 @@ const AboutUs = () => {
           <p className="abeezee-regular">{t("aboutUs.description4")}</p>
         </div>
       </div>
+      <div className="line__green"></div> {/* La linea verde */}
     </div>
   );
 };

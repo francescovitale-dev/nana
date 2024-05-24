@@ -1,3 +1,7 @@
+.app__aboutus {
+  position: relative; 
+}
+
 .app__aboutus-content_history {
   display: flex;
   justify-content: center;
@@ -16,6 +20,15 @@
 .highlight { /* stile per Westend in frankfurt */
   color: #4f643e; 
   font-weight: bold; 
+}
+
+.line__green {
+  position: absolute; /* Imposta la posizione assoluta rispetto al contenitore principale */
+  bottom: 0; /* Allinea la linea al fondo della sezione */
+  left: 0; /* Allinea la linea all'inizio della sezione */
+  width: 100%; /* Larghezza al 100% del contenitore principale */
+  height: 3px;
+  background-color: #4f643e; /* Colore verde */
 }
 
 @media screen and (max-width: 2000px){
