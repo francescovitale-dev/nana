@@ -2,7 +2,6 @@ import React from 'react';
 
 import './i18n.js';
 import { AboutUs, Chef, FindUs, Footer, Header, Intro, Menu } from './container';
-import { Navbar } from './components';
 import './App.css';
 
 const App = () => (
@@ -11,10 +10,10 @@ const App = () => (
      <AboutUs />
      <Chef />
      <Menu />
+     <FindUs />
     {/*<Intro />
      <Laurels />
     <Gallery /> 
-    <FindUs />
     <Footer />  */}
   </div>
 );

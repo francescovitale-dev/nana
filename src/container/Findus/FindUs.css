@@ -1,0 +1,9 @@
+.app__wrapper_map {
+  flex: 1;
+  margin-right: 2rem;
+}
+
+.app__wrapper_info {
+  flex: 1;
+}
+
