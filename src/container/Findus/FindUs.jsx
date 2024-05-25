@@ -14,6 +14,7 @@ const center = {
   lng: 8.665040, // Longitudine del ristorante
 };
 
+
 const FindUs = () => {
   const { t } = useTranslation();
 
