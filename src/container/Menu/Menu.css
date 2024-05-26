@@ -1,7 +1,11 @@
 .app__bg-menu {
-  background-image: url('../../assets/backgroundmenu.svg');
+  background-image: url('../../assets/backgroundmenu.webp');
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover; /* Fa in modo che l'immagine copra tutto lo schermo */
+  width: 100vw; /* Copre tutta la larghezza dello schermo */
+  height: 100vh; /* Copre tutta l'altezza dello schermo */
+  position: relative; /* Assicurati che la posizione sia relativa o assoluta */
 }
 
 .p__cormorant-menu {

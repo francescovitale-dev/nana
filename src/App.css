@@ -12,14 +12,10 @@
 
 .app__bg {
   background: #231F20;
-  background-position: center;
-  background-size: cover;
-  background-repeat: repeat;
-  background-attachment: fixed;
 }
 
 .background {
-  background: url('./assets/imgbackground.png')
+  background: url('./assets/imgbackground.webp')
 }
 
 .app__wrapper {
