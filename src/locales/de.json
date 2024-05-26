@@ -29,18 +29,18 @@
   },
   "contact": {
     "title": "Kontakt",
-    "findUsTitle": "Besuchen Sie uns",
-    "address": "Grüneburgweg 95, 60323 Frankfurt am Main",
-    "email": "E-Mail: info@nanáconvivial.de",
-    "phone": "Telefon: +49 1234567890",
+    "adress": "Adresse",
+    "street": "Grüneburgweg 95",
+    "city": "60323 Frankfurt am Main",
+    "email": "E-Mail: info@nanaconvivial.de",
+    "phone": "Telefon: +49 69 71436348",
     "openingHoursTitle": "Öffnungszeiten",
-    "openingHoursMonFri": "Mo - Fr: 10:00 - 02:00",
-    "openingHoursSatSun": "Sa - So: Geschlossen",
-    "visitButton": "Besuche uns"
+    "openingHoursMonFri": "Mo - Fr: 10.00 - 00.00 UHR",
+    "openingHoursSatSun": "Sa - So: Geschlossen"
   },
   "footer": {
     "contactTitle": "Kontaktiere uns",
-    "phone": "+49 1234567890",
+    "phone": "+49 69 71436348",
     "email": "info@nanaconvivial.de",
     "logoQuote": "\"Der beste Weg, sich selbst zu finden, ist sich im Dienst anderer zu verlieren.\"",
     "workingHoursTitle": "Arbeitszeiten",

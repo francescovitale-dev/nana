@@ -1,6 +1,7 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 import { GoogleMap, LoadScript, Marker } from '@react-google-maps/api';
+import { images } from '../../constants';
 import "./FindUs.css"; // File CSS separato per gli stili
 
 const containerStyle = {
@@ -38,24 +39,32 @@ const FindUs = () => {
         </LoadScript>
       </div>
 
-      <div className="app__wrapper_info">
-        <h1 className="headtext__cormorant" style={{ marginBottom: "3rem" }}>
-          {t("contact.findUsTitle")}
+      <div className="vertical-line"></div> 
+
+      <div className="app__wrapper_info_findus">
+        <h1 className="" style={{ textTransform: "uppercase", fontSize: "3rem", color: "white", fontFamily: "initial", fontWeight: "lighter"}}>
+          {t("contact.title")}
         </h1>
+        <img src={images.mano} alt="about_mano" className="mano__img" />
+        <h2 className="app__header-h1" style={{ marginTop: "2rem"}}>
+          {t("contact.adress")}
+        </h2>
         <div className="app__wrapper-content">
-          <p className="p__opensans">{t("contact.address")}</p>
-          <p className="p__opensans" style={{ textTransform: "none" }}>
-            {t("contact.email")}
+          <p className="abeezee-regular" style={{ marginTop: "1rem", marginBottom: "1rem", textTransform: "uppercase", lineHeight: "22px"}}>
+            {t("contact.street")} <br />
+            {t("contact.city")}
           </p>
-          <p className="p__opensans">{t("contact.phone")}</p>
-          <p
-            className="p__cormorant"
-            style={{ color: "#DCCA87", margin: "2rem 0" }}
-          >
+          <p className="abeezee-regular" style={{ textTransform: "uppercase", lineHeight: "22px" }}>
+            {t("contact.email")} <br />
+            {t("contact.phone")}
+          </p>
+          <p className="app__header-h1" style={{ marginTop: "2rem", marginBottom: "1rem" }}>
             {t("contact.openingHoursTitle")}
           </p>
-          <p className="p__opensans">{t("contact.openingHoursMonFri")}</p>
-          <p className="p__opensans">{t("contact.openingHoursSatSun")}</p>
+          <p className="abeezee-regular" style={{ textTransform: "uppercase", lineHeight: "22px" }}>
+            {t("contact.openingHoursMonFri")} <br />
+            {t("contact.openingHoursSatSun")}
+          </p>
         </div>
       </div>
 

@@ -1,9 +1,37 @@
 .app__wrapper_map {
   flex: 1;
   margin-right: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.app__wrapper_info {
+.app__wrapper_info_findus {
+  width: 100%;
+  text-align: center; /* Allinea il testo al centro */
   flex: 1;
 }
 
+.vertical-line {
+  width: 2px;
+  height: 24rem; /* Altezza della linea */
+  background-color: #4f643e; /* Colore della linea */
+  margin: 0 2rem; /* Spazio intorno alla linea */
+}
+
+@media (max-width: 1150px) {
+  
+  .app__wrapper_map {
+    width: 80%;
+    margin: 0 0 4rem 0; /* Rimuovi margine destro e aggiungi margine inferiore */
+  }
+
+  .vertical-line {
+    display: none; /* Nasconde la linea su schermi piccoli */
+  }
+
+  .app__wrapper_info_findus {
+    width: 100%;
+    text-align: center;
+  }
+}

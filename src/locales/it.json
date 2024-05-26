@@ -28,19 +28,19 @@
     "lacarta": "La Carta"
   },
   "contact": {
-    "title": "Contatto",
-    "findUsTitle": "Vieni a Trovarci",
-    "address": "Grüneburgweg 95, 60323 Frankfurt am Main",
-    "email": "Email: info@nanáconvivial.de",
-    "phone": "Telefono: +49 1234567890",
+    "title": "Contatti",
+    "adress": "Indirizzo",
+    "street": "Grüneburgweg 95",
+    "city": "60323 Francoforte sul Meno",
+    "email": "Email: info@nanaconvivial.de",
+    "phone": "Telefono: +49 69 71436348",
     "openingHoursTitle": "Orari di Apertura",
-    "openingHoursMonFri": "Lun - Ven: 10:00 - 02:00",
-    "openingHoursSatSun": "Sab - Dom: Chiuso",
-    "visitButton": "Visita Noi"
+    "openingHoursMonFri": "Lun - Ven: 10.00 - 00.00",
+    "openingHoursSatSun": "Sab - Dom: Chiuso"
   },
   "footer": {
     "contactTitle": "Contattaci",
-    "phone": "+49 1234567890",
+    "phone": "+49 69 71436348",
     "email": "info@nanaconvivial.de",
     "logoQuote": "\"Il modo migliore per trovare se stessi è perdersi nel servizio degli altri.\"",
     "workingHoursTitle": "Orari di Apertura",
