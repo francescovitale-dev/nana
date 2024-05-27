@@ -35,18 +35,25 @@
     "email": "Email: info@nanaconvivial.de",
     "phone": "Phone: +49 69 71436348",
     "openingHoursTitle": "Opening Hours",
-    "openingHoursMonFri": "Mon - Fri: 10.00 - 00.00",
+    "openingHoursMonFri": "Mon - Fri: 12.00 - 00.00 UHR",
     "openingHoursSatSun": "Sat - Sun: Closed"
   },
   "footer": {
-    "contactTitle": "Contact Us",
-    "phone": "+49 69 71436348",
+    "title": "Contact",
+    "adress": "ADDRESS",
+    "street": "Grüneburgweg 95",
+    "city": "60323 Frankfurt am Main",
     "email": "info@nanaconvivial.de",
-    "logoQuote": "\"The best way to find yourself is to lose yourself in the service of others.\"",
-    "workingHoursTitle": "Working Hours",
-    "monFriHours": "Monday-Friday:",
-    "satSunHours": "Saturday-Sunday:",
-    "closed": "Closed",
-    "rightsReserved": "2024 Naná. All Rights reserved."
+    "phone": "+49 69 71436348",
+    "openingHoursTitle": "OPENING HOURS",
+    "openingHoursMonFri": "Mon - Fri: 12.00 - 00.00 UHR",
+    "openingHoursSatSun": "Sat - Sun: Closed",
+    "quote": "La migliore esperienza per i tuoi sensi.",
+    "rightsReserved": "2024 Naná. All Rights reserved.",
+    "home": "Home",
+    "aboutUs": "About Us",
+    "menu": "Menu",
+    "contact": "Contact",
+    "imprint": "Imprint"
   }
 }

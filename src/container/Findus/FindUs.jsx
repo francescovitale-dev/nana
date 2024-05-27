@@ -20,12 +20,12 @@ const FindUs = () => {
   const { t } = useTranslation();
 
   return (
+    <>
     <div className="app__bg app__wrapper section__padding" id="contact">
       <div className="app__wrapper_map">
         <LoadScript
           googleMapsApiKey={import.meta.env.VITE_GOOGLE_MAPS_API_KEY}
           loadingElement={<div className="abeezee-regular">Loading...</div>}
-          
         >
           <GoogleMap
             mapContainerStyle={containerStyle}
@@ -67,8 +67,9 @@ const FindUs = () => {
           </p>
         </div>
       </div>
-
     </div>
+    <hr className="horizontal-line" /> 
+    </>
   );
 };
 

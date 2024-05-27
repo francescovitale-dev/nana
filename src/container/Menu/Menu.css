@@ -5,7 +5,7 @@
   background-size: cover; /* Fa in modo che l'immagine copra tutto lo schermo */
   width: 100vw; /* Copre tutta la larghezza dello schermo */
   height: 100vh; /* Copre tutta l'altezza dello schermo */
-  position: relative; /* Assicurati che la posizione sia relativa o assoluta */
+  position: relative; 
 }
 
 .p__cormorant-menu {

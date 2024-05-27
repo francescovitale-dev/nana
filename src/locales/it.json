@@ -35,18 +35,25 @@
     "email": "Email: info@nanaconvivial.de",
     "phone": "Telefono: +49 69 71436348",
     "openingHoursTitle": "Orari di Apertura",
-    "openingHoursMonFri": "Lun - Ven: 10.00 - 00.00",
+    "openingHoursMonFri": "Lun - Ven: 12.00 - 00.00 UHR",
     "openingHoursSatSun": "Sab - Dom: Chiuso"
   },
   "footer": {
-    "contactTitle": "Contattaci",
-    "phone": "+49 69 71436348",
+    "title": "Contatti",
+    "adress": "INDIRIZZO",
+    "street": "Grüneburgweg 95",
+    "city": "60323 Francoforte sul Meno",
     "email": "info@nanaconvivial.de",
-    "logoQuote": "\"Il modo migliore per trovare se stessi è perdersi nel servizio degli altri.\"",
-    "workingHoursTitle": "Orari di Apertura",
-    "monFriHours": "Lunedì-Venerdì:",
-    "satSunHours": "Sabato-Domenica:",
-    "closed": "Chiuso",
-    "rightsReserved": "2024 Naná. Tutti i diritti riservati."
+    "phone": "+49 69 71436348",
+    "openingHoursTitle": "ORARI DI APERTURA",
+    "openingHoursMonFri": "Lun - Ven: 12.00 - 00.00 UHR",
+    "openingHoursSatSun": "Sab - Dom: Chiuso",
+    "quote": "La migliore esperienza per i tuoi sensi.",
+    "rightsReserved": "2024 Naná. All Rights reserved.",
+    "home": "Home",
+    "aboutUs": "Chi siamo",
+    "menu": "Menu",
+    "contact": "Contatti",
+    "imprint": "Avviso Legale"
   }
 }

@@ -6,6 +6,7 @@ import logo from '../assets/logo.png';
 import mano from '../assets/mano.svg';
 import imgbackground from '../assets/imgbackground.webp';
 import backgroundmenu from '../assets/backgroundmenu.webp';
+import nana from '../assets/nana.webp'
 
 export default {
   chef,
@@ -15,5 +16,6 @@ export default {
   logo,
   mano,
   imgbackground,
-  backgroundmenu
+  backgroundmenu,
+  nana
 };

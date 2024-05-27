@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './i18n.js';
-import { AboutUs, Chef, FindUs, Footer, Header, Intro, Menu } from './container';
+import { AboutUs, Chef, FindUs, Footer, Header, Menu } from './container';
 import './App.css';
 
 const App = () => (
@@ -11,10 +11,10 @@ const App = () => (
      <Chef />
      <Menu />
      <FindUs />
+     <Footer /> 
     {/*<Intro />
-     <Laurels />
     <Gallery /> 
-    <Footer />  */}
+     */}
   </div>
 );
 

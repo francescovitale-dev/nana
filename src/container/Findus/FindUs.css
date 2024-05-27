@@ -19,6 +19,13 @@
   margin: 0 2rem; /* Spazio intorno alla linea */
 }
 
+.horizontal-line {
+  width: 100%;
+  border: 0;
+  height: 1px;
+  background: #4f643e; /* or any other color that fits your design */
+}
+
 @media (max-width: 1150px) {
   
   .app__wrapper_map {
@@ -33,5 +40,17 @@
   .app__wrapper_info_findus {
     width: 100%;
     text-align: center;
+
+    order: 1;  /* Posiziona le informazioni di contatto sopra la mappa */
+  }
+
+  .app__wrapper_map {
+    order: 2; /* Posiziona la mappa sotto le informazioni di contatto */
+    margin: 4rem 0 2rem 0;
+    width: 90%;
+  }
+
+  .app__wrapper_info_findus {
+    width: 100%;
   }
 }

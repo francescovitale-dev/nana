@@ -18,26 +18,25 @@
   justify-content: space-between;
   align-items: flex-start;
 
-  margin-top: 5rem;
+  margin-top: 1rem;
   padding: 0 2rem;
 }
 
-.app__footer-links_contact,
-.app__footer-links_logo,
-.app__footer-links_work {
+.app__footer-links_logo {
   flex: 1;
   margin: 1rem;
   text-align: center;
 }
 
+.app__footer-links_contact {
+  margin: 8rem;
+  text-align: center;
+  flex: 1;
+}
+
 .app__footer-links_logo img:first-child {
   width: 210px;
   margin-bottom: 0.75rem;
-}
-
-
-.app__footer-links_work p:nth-child(2n + 1) {
-  margin-bottom: 1rem;
 }
 
 .app__footer-links_icons {
@@ -52,7 +51,7 @@
 }
 
 .app__footer-links_icons svg:hover {
-  color: var(--color-golden);
+  color: #4f643e;
 }
 
 .app__footer-headtext {
