@@ -1,6 +1,0 @@
-deployment:
-  tasks:
-    - export NODE_ENV=production
-    - cd $HOME/myapp
-    - npm install
-    - npm run build
