@@ -39,3 +39,9 @@
   background-color: #37422f;
   cursor: pointer;
 }
+
+@media screen and (max-width: 450px) {
+  .impressum-title {
+      font-size: 2rem;
+  }
+}
