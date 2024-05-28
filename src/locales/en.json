@@ -55,5 +55,20 @@
     "menu": "Menu",
     "contact": "Contact",
     "imprint": "Imprint"
-  }
+  },
+    "impressum": {
+      "title": "Legal Notice",
+      "content": "Represented by:",
+      "name": "Naná GmbH",
+      "ceo": "CEO William Vitale",
+      "registerEntry": "Registered in the Commercial Register",
+      "court": "Court of Registration: Local Court of Frankfurt am Main",
+      "registerNumber": "Registration Number: HRB 111111",
+      "responsibility": "Responsible for the content (according to § 55 Abs. 2 RStV):",
+      "street": "Grüneburgweg 95",
+      "city": "60323 Frankfurt am Main",
+      "email": "info@nanaconvivial.de",
+      "phone": "+49 69 71436348",
+      "homeLink": "Back to Home"
+    }
 }

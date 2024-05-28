@@ -2,6 +2,7 @@ import React from 'react';
 import { FaTiktok, FaInstagram } from 'react-icons/fa';
 import { useTranslation } from 'react-i18next';
 import { images } from '../../constants';
+import { Link } from 'react-router-dom';
 import './Footer.css';
 
 const Footer = () => {
@@ -36,13 +37,25 @@ const Footer = () => {
         </div>
 
         <div className="app__footer-links_contact">
-          <p className="abeezee-regular" style={{ lineHeight: "25px", textDecoration: "underline"}}>
-            <a href="#home">&gt; {t('footer.home')}</a> <br />
-            <a href="#about">&gt; {t('footer.aboutUs')}</a> <br />
-            <a href="#menu">&gt; {t('footer.menu')}</a> <br />
-            <a href="#contact">&gt; {t('footer.contact')}</a> <br />
-            <a href="#home">&gt; {t('footer.imprint')}</a>
-          </p>
+          <nav className='abeezee-regular'>
+            <ul style={{ listStyleType: 'none', padding: 0, lineHeight: "25px", textDecoration: "underline" }}>
+              <li>
+                <a href="#home">&gt; {t('footer.home')}</a> <br />
+              </li>
+              <li>
+                <a href="#about">&gt; {t('footer.aboutUs')}</a> <br />
+              </li>
+              <li>
+                <a href="#menu">&gt; {t('footer.menu')}</a> <br />
+              </li>
+              <li>
+                <a href="#contact">&gt; {t('footer.contact')}</a> <br />
+              </li>
+              <li>
+                <Link to="/impressum">&gt; {t('footer.imprint')}</Link>
+              </li>
+            </ul>
+          </nav>
         </div>
       </div>
 

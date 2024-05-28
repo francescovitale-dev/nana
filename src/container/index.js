@@ -6,6 +6,7 @@ import Footer from './Footer/Footer';
 import Header from './Header/Header';
 // import Intro from './Intro/Intro';
 import Menu from './Menu/Menu';
+import Impressum from './Impressum/Impressum';
 
 export {
   AboutUs,
@@ -16,4 +17,5 @@ export {
   Header,
   // Intro,
   Menu,
+  Impressum
 };
