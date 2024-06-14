@@ -9,9 +9,9 @@ const Chef = () => {
   return (
     <div className="app__bg app__wrapper section__padding">
       <div className="app__chef-container">
-        <div className="app__chef-img">
+        {/* <div className="app__chef-img">
           <img src={images.chef} alt="chef_image" className="chef_img" />
-        </div>
+        </div> */}
         <div className="app__chef-description">
           <h1 className="headtext__cormorant">{t('chef.beliefTitle')}</h1>
           <img src={images.mano} alt="about_mano" className="mano__img" />

@@ -6,8 +6,8 @@
     "contact": "Contatto"
   },
   "header": {
-    "title": "La chiave per una cucina raffinata",
-    "description": "SEMPRE FRESCO & DELIZIOSO - IL MEGLIO DELLA CUCINA ITALIANA."
+    "title": "Gusto e Atmosfera Conviviale",
+    "description": "SEMPRE FRESCO & DELIZIOSO - IL MEGLIO DELLA CUCINA ITALIANA"
   },
   "aboutUs": {
     "ourStory": "CHI SIAMO",
@@ -35,8 +35,9 @@
     "email": "Email: info@nanaconvivial.de",
     "phone": "Telefono: +49 69 71436348",
     "openingHoursTitle": "Orari di Apertura",
-    "openingHoursMonFri": "Lun - Ven: 12.00 - 00.00 UHR",
-    "openingHoursSatSun": "Sab - Dom: Chiuso"
+    "openingHours": "Mar - Sab: 12.00 - 14.30 / 18.30 - 22.00 UHR",
+    "openingHoursSun": "Dom: 12.00 - 14.30 UHR",
+    "openingHoursMo": "Lun: Chiuso"
   },
   "footer": {
     "title": "Contatti",
@@ -46,8 +47,9 @@
     "email": "info@nanaconvivial.de",
     "phone": "+49 69 71436348",
     "openingHoursTitle": "ORARI DI APERTURA",
-    "openingHoursMonFri": "Lun - Ven: 12.00 - 00.00 UHR",
-    "openingHoursSatSun": "Sab - Dom: Chiuso",
+    "openingHours": "Mar - Sab: 12.00 - 14.30 / 18.30 - 22.00 UHR",
+    "openingHoursSun": "Dom: 12.00 - 14.30 UHR",
+    "openingHoursMo": "Lun: Chiuso",
     "quote": "La migliore esperienza per i tuoi sensi.",
     "rightsReserved": "2024 Naná. All Rights reserved.",
     "home": "Home",

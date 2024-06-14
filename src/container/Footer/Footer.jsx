@@ -21,8 +21,9 @@ const Footer = () => {
 
           <p className="abeezee-regular" style={{ lineHeight: "20px"}}>
             {t('footer.openingHoursTitle')} <br />
-            {t('footer.openingHoursMonFri')} <br />
-            {t('footer.openingHoursSatSun')}
+            {t('footer.openingHours')} <br />
+            {t('footer.openingHoursSun')} <br />
+            {t('footer.openingHoursMo')}
           </p>
         </div>
 
@@ -32,7 +33,9 @@ const Footer = () => {
           <img src={images.mano} alt="about_mano" className="mano__img" />
           <div className="app__footer-links_icons">
             <FaTiktok />
+            <a href="https://www.instagram.com/nana.convivial?igsh=MWQwZmp3ZGpjeWpwMQ==" target="_blank" rel="noopener noreferrer">
             <FaInstagram />
+            </a>
           </div>
         </div>
 

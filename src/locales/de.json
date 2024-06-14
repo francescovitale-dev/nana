@@ -6,19 +6,19 @@
     "contact": "Kontakt"
   },
   "header": {
-    "title": "Der Schlüssel zu feinem Essen",
-    "description": "IIMMER FRISCH & LECKER - DAS BESTE DER ITALIENISCHEN KÜCHE."
+    "title": "Gusto e Atmosfera Conviviale",
+    "description": "IIMMER FRISCH & LECKER - DAS BESTE DER ITALIENISCHEN KÜCHE"
   },
   "aboutUs": {
     "ourStory": "ÜBER UNS",
-    "description1": "Naná ist weit mehr als nur ein Restaurant - es ist eine exquisite Reise in die Welt der italienischen Kulinarik. Im Herzen des <span class='highlight'>Westend in Frankfurt</span> gelegen, erwartet Sie eine warme Atmosphäre, die jedes Detail sorgfältig ausarbeitet, um Ihr kulinarisches Erlebnis zu bereichern.",
+    "description1": "Naná ist weit mehr als nur ein Restaurant - es ist eine exquisite Reise in die Welt der italienischen Kulinarik. Im Herzen des <span class='highlight'>Westends in Frankfurt</span> gelegen, erwartet Sie eine warme Atmosphäre, die jedes Detail sorgfältig ausarbeitet, um Ihr kulinarisches Erlebnis zu bereichern.",
     "description2": "Verwöhnen Sie all Ihre Sinne. Unsere erlesene Weinkarte bietet eine Auswahl der besten italienischen Weine, perfekt abgestimmt auf unsere exquisiten Gerichte, die aus den frischesten und hochwertigsten Zutaten zubereitet werden.",
     "description3": "Ob Sie uns für ein romantisches Dinner, eine fröhliche Feier mit Freunden oder einen ruhigen Moment der Entspannung besuchen - wir laden Sie ein, die erlesenen Aromen Italiens zu genießen, herzliche Momente zu teilen und unvergessliche Erinnerungen bei Naná zu schaffen.",
     "description4": "Unser engagiertes Team steht bereit, um Ihnen einen unvergesslichen Abend zu bereiten. Lassen Sie sich von unserem erstklassigen Service verwöhnen und genießen Sie eine italienische Reise, die Sie immer wieder zu uns zurückkehren lässt."
   },
   "chef": {
     "beliefTitle": "WORTE VOM KÜCHENCHEF",
-    "quote": "Unsere kulinarische Philosophie basiert auf drei grundlegenden Säulen: Leidenschaft, Qualität und Tradition. Wir bemühen uns jeden Tag, Gerichte zu kreieren, die nicht nur den Gaumen befriedigen, sondern auch unseren tiefen Respekt für Zutaten, kulinarische Kultur und die gastronomische Erfahrung als Ganzes vermitteln. Wir glauben an die Kraft des Essens, Menschen zusammenzubringen, Freude zu schaffen und das Leben zu feiern. Mit Engagement und Hingabe verfolgen wir unsere Mission, außergewöhnliche kulinarische Erlebnisse anzubieten, die jedem, der durch die Türen unseres Restaurants geht, einen bleibenden Eindruck hinterlassen. Vielen Dank, dass Sie sich entschieden haben, diese Leidenschaft mit uns zu teilen. Guten Appetit!",
+    "quote": "Unsere kulinarische Philosophie basiert auf drei grundlegenden Säulen: Leidenschaft, Qualität und Tradition. Wir bemühen uns jeden Tag, Gerichte zu kreieren, die nicht nur den Gaumen befriedigen, sondern auch unseren tiefen Respekt für Zutaten, kulinarische Kultur und die gastronomische Erfahrung als Ganzes vermitteln. Wir glauben an die Kraft des Essens, Menschen zusammenzubringen, Freude zu schaffen und das Leben zu feiern. Mit Engagement und Hingabe verfolgen wir unsere Mission, außergewöhnliche kulinarische Erlebnisse anzubieten, die jedem, der durch die Türen unseres Restaurants kommt, einen bleibenden Eindruck hinterlassen. Vielen Dank, dass Sie sich entschieden haben, diese Leidenschaft mit uns zu teilen. Guten Appetit!",
     "name": "Salvo Maggiore",
     "role": "CHEF & CO-FOUNDER"
   },
@@ -35,8 +35,9 @@
     "email": "E-Mail: info@nanaconvivial.de",
     "phone": "Telefon: +49 69 71436348",
     "openingHoursTitle": "Öffnungszeiten",
-    "openingHoursMonFri": "Mo - Fr: 12.00 - 00.00 UHR",
-    "openingHoursSatSun": "Sa - So: Geschlossen"
+    "openingHours": "Di - Sa: 12.00 - 14.30 / 18.30 - 22.00 UHR",
+    "openingHoursSun": "So: 12.00 - 14. 30 UHR",
+    "openingHoursMo": "Mo: Geschlossen"
   },
   "footer": {
     "title": "Kontakt",
@@ -46,8 +47,9 @@
     "email": "info@nanaconvivial.de",
     "phone": "+49 69 71436348",
     "openingHoursTitle": "ÖFFNUNGSZEITEN",
-    "openingHoursMonFri": "Mo - Fr: 12.00 - 00.00 UHR",
-    "openingHoursSatSun": "Sa - So: Geschlossen",
+    "openingHours": "Di - Sa: 12.00 - 14.30 / 18.30 - 22.00 UHR",
+    "openingHoursSun": "So: 12.00 - 14. 30 UHR",
+    "openingHoursMo": "Mo: Geschlossen",
     "quote": "\"La migliore esperienza per i tuoi sensi.\"",
     "rightsReserved": "2024 Naná. All Rights reserved.",
     "home": "STARTSEITE",
