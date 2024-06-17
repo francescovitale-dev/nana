@@ -1,0 +1,48 @@
+.app__wrapper__notfound {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  min-height: 100vh;
+  text-align: center; 
+}
+
+.logo {
+  width: 10rem;
+  margin-bottom: 2rem;
+}
+
+.notfound-title {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  color: #4f643e;
+}
+
+.notfound-font {
+  line-height: 30px;
+  list-style: none;
+}
+
+.app__notfound-home-link {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1em;
+  color: white;
+  background-color: #4f643e;
+  text-decoration: none;
+  border: none;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.app__notfound-home-link:hover {
+  background-color: #37422f;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 450px) {
+  .notfound-title {
+      font-size: 2rem;
+  }
+}

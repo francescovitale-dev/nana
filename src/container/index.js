@@ -7,6 +7,7 @@ import Header from './Header/Header';
 // import Intro from './Intro/Intro';
 import Menu from './Menu/Menu';
 import Impressum from './Impressum/Impressum';
+import NotFound from './NotFound/NotFound';
 
 export {
   AboutUs,
@@ -17,5 +18,6 @@ export {
   Header,
   // Intro,
   Menu,
-  Impressum
+  Impressum,
+  NotFound
 };

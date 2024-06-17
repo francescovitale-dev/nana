@@ -72,5 +72,10 @@
       "email": "info@nanaconvivial.de",
       "phone": "+49 69 71436348",
       "homeLink": "Zurück zur Startseite"
+    },
+    "notfound": {
+      "title": "Oops! Lost in Flavors?",
+      "message": "Looks like you've taken a wrong turn. Don't worry, we're here to guide you back to our delicious flavors!",
+      "homeLink": "Back to Taste Adventure"
     }
 }
