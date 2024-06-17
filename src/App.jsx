@@ -17,7 +17,7 @@ const App = () => {
   const getMetaTags = () => {
     const metaTags = {
       de: {
-        description: "Entdecken Sie das Ristorante Naná, wo traditionelle italienische Küche auf Innovation trifft. Genießen Sie authentische Gerichte aus frischen und hochwertigen Zutaten in einem gemütlichen Ambiente in Frankfurt.",
+        description: "Entdecken Sie das Naná, wo traditionelle italienische Küche auf Innovation trifft. Genießen Sie authentische Gerichte aus frischen und hochwertigen Zutaten in einem gemütlichen Ambiente in Frankfurt.",
         keywords: "Restaurant, Naná, italienische Küche, traditionelle Gerichte, Innovation, Frankfurt, frisches Essen, gemütliches Restaurant",
         title: "Ristorante Naná - Traditionelle und innovative Küche in Frankfurt",
         ogDescription: "Entdecken Sie das Ristorante Naná : eine Reise durch die authentischen Aromen der italienischen Küche, neu interpretiert. Jetzt reservieren!"
@@ -29,7 +29,7 @@ const App = () => {
         ogDescription: "Vieni a scoprire il Ristorante Naná : un viaggio tra i sapori autentici della cucina italiana, rivisitata in chiave moderna. Prenota ora!"
       },
       en: {
-        description: "Discover Ristorante Naná, where traditional Italian cuisine meets innovation. Enjoy authentic dishes prepared with fresh, high-quality ingredients in a cozy setting in Frankfurt.",
+        description: "Discover Naná, where traditional Italian cuisine meets innovation. Enjoy authentic dishes prepared with fresh, high-quality ingredients in a cozy setting in Frankfurt.",
         keywords: "restaurant, Naná , Italian cuisine, traditional dishes, innovation, Frankfurt, fresh food, cozy restaurant",
         title: "Ristorante Naná - Traditional and Innovative Cuisine in Frankfurt",
         ogDescription: "Discover Ristorante Naná : a journey through the authentic flavors of Italian cuisine, reinterpreted in a modern way. Book now!"
