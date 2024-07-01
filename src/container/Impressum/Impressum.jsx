@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import "./Impressum.css";
 import images from "../../constants/images";
@@ -23,11 +24,9 @@ const Impressum = () => {
           <li>{t("impressum.email")}</li>
           <li>{t("impressum.phone")}</li>
         </ul>
-        <a href="/">
-          <button className="app__impressum-home-link">
-            {t("impressum.homeLink")}
-          </button>
-        </a>
+        <Link to="/" className="app__menu-button">
+          {t("impressum.homeLink")}
+        </Link>
       </div>
     </div>
   );
