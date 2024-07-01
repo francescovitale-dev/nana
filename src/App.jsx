@@ -5,6 +5,7 @@ import { useTranslation } from 'react-i18next';
 
 import './i18n.js';
 import { AboutUs, Chef, FindUs, Footer, Header, Menu, Impressum, NotFound } from './container';
+import { MenuItem } from './components/index.js';
 import './App.css';
 
 const App = () => {
@@ -68,6 +69,7 @@ const App = () => {
               </>
             } />
             <Route path="/impressum" element={<Impressum />} />
+            <Route path="/menu" element={<MenuItem />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </div>

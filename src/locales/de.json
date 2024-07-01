@@ -76,6 +76,13 @@
     "notfound": {
       "title": "Oops! Lost in Flavors?",
       "message": "Looks like you've taken a wrong turn. Don't worry, we're here to guide you back to our delicious flavors!",
-      "homeLink": "Back to Taste Adventure"
+      "homeLink": "Back to Naná"
+    },
+    "menuItem": {
+      "title": "Unser Menü",
+      "description-carta": "À la carte",
+      "description-degustazione": "Verkostung",
+      "allaCartaAvailability": "verfügbar zum Mittag- und Abendessen",
+      "degustazioneAvailability": "verfügbar zum Abendessen"
     }
 }

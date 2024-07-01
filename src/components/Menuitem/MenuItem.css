@@ -1,41 +1,65 @@
-.app__menuitem {
-  width: 100%;
-  margin: 1rem 0;
-
+/* MenuItem.css */
+.menu-container {
   display: flex;
   flex-direction: column;
-}
-
-.app__menuitem-head {
-  display: flex;
-  justify-content: space-between;
   align-items: center;
+  text-align: center;
+  padding: 40px;
 }
 
-.app__menuitem-sub {
-  width: 100%;
-  margin-top: 0.2rem;
+.menu-container h1 {
+  font-size: 2.5em;
+  margin-bottom: 12px;
 }
 
-.app__menuitem-sub p {
-  width: 100%;
-  margin-top: 0.2rem;
-  text-transform: none;
+.menu-description {
+  font-size: 1.5em;
+  margin-bottom: 5px;
+  max-width: 800px; /* Limita la larghezza massima del testo */
+  width: 100%; /* Assicura che il testo sia centrato */
 }
 
-.app__menuitem-name {
-  flex: 1;
+.menu-info {
+  color: #666;
+  font-size: 1.2em;
+  margin-bottom: 30px;
+  max-width: 800px; /* Limita la larghezza massima del testo */
+  width: 100%; /* Assicura che il testo sia centrato */
 }
 
-.app__menuitem-dash {
-  width: 90px;
-  height: 1px;
-  background: var(--color-golden);
-  margin: 0 1rem;
-}
-
-.app__menuitem-price {
+.menu-images {
   display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.menu-image {
+  width: 100%;
+  height: auto;
+  max-width: 800px; /* Limita la larghezza massima dell'immagine */
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.menu-image:hover {
+  transform: scale(1.02);
+}
+
+@media (max-width: 768px) {
+  .menu-container h1 {
+    font-size: 1.6em;
+  }
+
+  .menu-container p {
+    font-size: 1.2em;
+  }
+
+  .menu-image {
+    max-width: 100%; /* Assicura che le immagini siano a piena larghezza su dispositivi mobili */
+  }
 }

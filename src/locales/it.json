@@ -76,6 +76,13 @@
     "notfound": {
       "title": "Ops! Perso nei sapori?",
       "message": "Sembra che tu abbia preso una strada sbagliata. Nessun problema, siamo qui per guidarti verso i nostri deliziosi sapori!",
-      "homeLink": "Torna all'Avventura del Gusto"
+      "homeLink": "Torna da Naná"
+    },
+     "menuItem": {
+      "title": "Il Nostro Menu",
+      "description-carta": "Alla Carta",
+      "description-degustazione": "Degustazione",
+      "allaCartaAvailability": "disponibile a pranzo e cena",
+      "degustazioneAvailability": "disponibile a cena"
     }
 }

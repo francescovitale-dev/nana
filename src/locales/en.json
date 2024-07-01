@@ -73,9 +73,11 @@
       "phone": "+49 69 71436348",
       "homeLink": "Back to Home"
     },
-    "notfound": {
-      "title": "Oops! Lost in Flavors?",
-      "message": "Looks like you've taken a wrong turn. Don't worry, we're here to guide you back to our delicious flavors!",
-      "homeLink": "Back to Taste Adventure"
-    }
+    "menuItem": {
+      "title": "Our Menu",
+      "description-carta": "À la Carte",
+      "description-degustazione": "Tasting",
+      "allaCartaAvailability": "available for lunch and dinner",
+      "degustazioneAvailability": "available for dinner"
+    }    
 }

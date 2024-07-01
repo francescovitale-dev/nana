@@ -6,7 +6,9 @@ import logo from '../assets/logo.png';
 import mano from '../assets/mano.svg';
 import imgbackground from '../assets/imgbackground.webp';
 import backgroundmenu from '../assets/backgroundmenu.webp';
-import nana from '../assets/nana.webp'
+import nana from '../assets/nana.webp';
+import allaCarta from '../assets/alla-carta.png';
+import degustazione from '../assets/degustazione.png';
 
 export default {
   chef,
@@ -17,5 +19,7 @@ export default {
   mano,
   imgbackground,
   backgroundmenu,
-  nana
+  nana,
+  allaCarta,
+  degustazione
 };

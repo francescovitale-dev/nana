@@ -1,5 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom'; 
 import { images } from '../../constants';
 import './Menu.css';
 
@@ -13,9 +14,9 @@ const Menu = () => {
         <img src={images.mano} alt="about_mano" className="mano__img-menu" />
         <h2 className='p__cormorant-menu-2'>{t('menu.menuDescription')}</h2>
         <div className="menu-card">
-          <button className='menu-button' onClick={() => window.open('link-to-menu-document', '_blank')}>
-          {t('menu.lacarta')}
-          </button>
+        <Link to="/menu" className='menu-button'>
+            {t('menu.lacarta')}
+        </Link>
         </div>
       </div>
     </div>
