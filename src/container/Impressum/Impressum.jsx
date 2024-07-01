@@ -24,7 +24,7 @@ const Impressum = () => {
           <li>{t("impressum.email")}</li>
           <li>{t("impressum.phone")}</li>
         </ul>
-        <Link to="/" className="app__menu-button">
+        <Link to="/" className="app__impressum-home-link">
           {t("impressum.homeLink")}
         </Link>
       </div>
