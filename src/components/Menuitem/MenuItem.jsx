@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { images } from '../../constants';
 import './MenuItem.css';  // Importa lo stile CSS per il layout e la responsività
@@ -22,6 +23,9 @@ const MenuItem = () => {
           <img src={images.degustazione} alt="Menu Degustazione" className="menu-image" />
         </div>
       </div>
+      <Link to="/" className="app__menu-button">
+        {t("impressum.homeLink")}
+      </Link>
     </div>
   );
 };
