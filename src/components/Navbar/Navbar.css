@@ -37,14 +37,14 @@
   justify-content: flex-start;
 }
 
-.app__navbar-links-left,
-.app__navbar-links-right, li {
+.app__navbar-links-left li,
+.app__navbar-links-right li {
   margin: 0rem 1rem;
   cursor: pointer;
 }
 
-.app__navbar-links-left,
-.app__navbar-links-right, li:hover {
+.app__navbar-links-left li:hover,
+.app__navbar-links-right li:hover {
   color: var(--color-grey);
 }
 

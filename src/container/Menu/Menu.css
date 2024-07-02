@@ -39,7 +39,9 @@
 
 .menu-button {
   margin-top: 10px;
-  padding: 20px 80px;
+  padding: 20px 50px;
+  margin-right: 10px;
+  margin-left: 10px;
   background-color: white;
   color: #4f643e;
   border: none;
@@ -57,3 +59,10 @@
   display: block;
   margin: 0 auto;
 }
+
+@media screen and (max-width: 650px) {
+  .menu-button {
+    display: block;
+  }
+}
+

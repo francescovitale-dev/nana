@@ -25,7 +25,8 @@
   "menu": {
     "menuTitle": "MENU",
     "menuDescription": "Chef's Recommendations",
-    "lacarta": "La Carta"
+    "lacarta": "La Carta",
+    "vini": "Wines"
   },
   "contact": {
     "title": "Contact",
@@ -75,6 +76,7 @@
     },
     "menuItem": {
       "title": "Our Menu",
+      "title-wine": "Our Wines",
       "description-carta": "À la Carte",
       "description-degustazione": "Tasting",
       "allaCartaAvailability": "available for lunch and dinner",
