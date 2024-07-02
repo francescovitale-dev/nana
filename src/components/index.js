@@ -3,11 +3,13 @@
 // import FooterOverlay from './Footer/FooterOverlay';
 import MenuItem from './Menuitem/MenuItem';
 import Navbar from './Navbar/Navbar';
+import Wines from './Wines/Wines';
 
 export {
   // SubHeading,
   // Newsletter,
   // FooterOverlay,
   MenuItem,
-  Navbar
+  Navbar,
+  Wines
 };

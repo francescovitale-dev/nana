@@ -17,6 +17,9 @@ const Menu = () => {
         <Link to="/menu" className='menu-button'>
             {t('menu.lacarta')}
         </Link>
+        <Link to="/wines" className='menu-button'>
+            {t('menu.vini')}
+        </Link>
         </div>
       </div>
     </div>
