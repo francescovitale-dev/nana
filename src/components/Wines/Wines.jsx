@@ -9,7 +9,6 @@ const MenuItem = () => {
   return (
     <div className="menu-container">
       <h1>{t('menuItem.title-wine')}</h1>
-
       <div className="menu-images">
         <div className="menu-item">
           <img src={images.vino1} alt="Menu alla Carta" className="menu-image" />

@@ -8,6 +8,7 @@ import Intro from './Intro/Intro';
 import Menu from './Menu/Menu';
 import Impressum from './Impressum/Impressum';
 import NotFound from './NotFound/NotFound';
+import CookiePolicy from './CookiePolicy/CookiePolicy';
 
 export {
   AboutUs,
@@ -19,5 +20,6 @@ export {
   Intro,
   Menu,
   Impressum,
-  NotFound
+  NotFound,
+  CookiePolicy
 };

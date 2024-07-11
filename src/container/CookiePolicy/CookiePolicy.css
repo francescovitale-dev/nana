@@ -1,0 +1,17 @@
+.cookie-policy-section {
+  margin-bottom: 2rem;
+}
+
+.cookie-policy-section h2 {
+  margin-bottom: 1rem;
+  color: #4f643e;
+}
+
+.cookie-policy-section h3 {
+  margin-bottom: 0.5rem;
+}
+
+.cookie-policy-section p {
+  margin-bottom: 0.5rem;
+  color: var(--color-grey);
+}

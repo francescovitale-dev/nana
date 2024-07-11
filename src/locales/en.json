@@ -59,27 +59,53 @@
     "contact": "Contact",
     "imprint": "Imprint"
   },
-    "impressum": {
-      "title": "Legal Notice",
-      "content": "Represented by:",
-      "name": "Naná GmbH",
-      "ceo": "CEO William Vitale",
-      "registerEntry": "Registered in the Commercial Register",
-      "court": "Court of Registration: Local Court of Frankfurt am Main",
-      "registerNumber": "Registration Number: HRB 134192",
-      "responsibility": "Responsible for the content (according to § 55 Abs. 2 RStV):",
-      "street": "Grüneburgweg 95",
-      "city": "60323 Frankfurt am Main",
-      "email": "info@nanaconvivial.de",
-      "phone": "+49 69 71436348",
-      "homeLink": "Back to Home"
-    },
-    "menuItem": {
-      "title": "Our Menu",
-      "title-wine": "Our Wines",
-      "description-carta": "À la Carte",
-      "description-degustazione": "Tasting",
-      "allaCartaAvailability": "available for lunch and dinner",
-      "degustazioneAvailability": "available for dinner"
-    }    
+  "impressum": {
+    "title": "Legal Notice",
+    "content": "Represented by:",
+    "name": "Naná GmbH",
+    "ceo": "CEO William Vitale",
+    "registerEntry": "Registered in the Commercial Register",
+    "court": "Court of Registration: Local Court of Frankfurt am Main",
+    "registerNumber": "Registration Number: HRB 134192",
+    "responsibility": "Responsible for the content (according to § 55 Abs. 2 RStV):",
+    "street": "Grüneburgweg 95",
+    "city": "60323 Frankfurt am Main",
+    "email": "info@nanaconvivial.de",
+    "phone": "+49 69 71436348",
+    "homeLink": "Back to Home"
+  },
+  "menuItem": {
+    "title": "Our Menu",
+    "title-wine": "Our Wines",
+    "description-carta": "À la Carte",
+    "description-degustazione": "Tasting",
+    "allaCartaAvailability": "available for lunch and dinner",
+    "degustazioneAvailability": "available for dinner"
+  },
+  "cookiePolicy": {
+    "notice": "This website uses cookies to improve the user experience.",
+    "readMore": "Read more",
+    "accept": "Accept",
+    "decline": "Decline",
+    "title": "Cookie Policy",
+    "lastUpdated": "Last Updated: 11/07/2024",
+    "introductionTitle": "Introduction",
+    "introductionContent": "This Cookie Policy explains how Restaurant Naná (\"we\", \"our\") uses cookies and similar technologies to recognize you when you visit our website and app (\"Service\"). It explains what these technologies are and why we use them, as well as your rights to control their use.",
+    "whatAreCookiesTitle": "What are Cookies?",
+    "whatAreCookiesContent": "Cookies are small text files that are stored on your device (computer, tablet, smartphone) when you visit a website. They are widely used to make websites work, or to work more efficiently, as well as to provide information to the site owners.",
+    "typesOfCookiesTitle": "Types of Cookies We Use",
+    "typesOfCookiesGoogleAnalyticsTitle": "Google Analytics",
+    "typesOfCookiesGoogleAnalyticsContent": "We use Google Analytics to collect anonymous information about the use of our website. These cookies help us understand how visitors interact with our site, allowing us to improve the user experience. More information is available in Google's privacy policy.",
+    "typesOfCookiesGoogleMapsTitle": "Google Maps",
+    "typesOfCookiesGoogleMapsContent": "We use Google Maps to display maps and provide directions. Google Maps API may set cookies and collect information about your use of the maps. For more details, see Google's privacy policy.",
+    "typesOfCookiesGoogleFontsTitle": "Google Fonts",
+    "typesOfCookiesGoogleFontsContent": "We use Google Fonts to display fonts on our website. When you view a site that uses Google Fonts, your browser establishes a connection to Google's servers and Google may collect data about you. More information is available in Google's privacy policy.",
+    "howToControlCookiesTitle": "How to Control Cookies",
+    "howToControlCookiesContent": "You have the right to decide whether to accept or reject cookies. You can exercise your cookie preferences by setting your web browser controls. If you choose to reject cookies, you may still use our site, but your access to some functionality and areas of our site may be restricted.",
+    "updatesToPolicyTitle": "Updates to this Cookie Policy",
+    "updatesToPolicyContent": "We may update this Cookie Policy from time to time to reflect, for example, changes to the cookies we use or for other operational, legal, or regulatory reasons. We recommend that you review this Cookie Policy regularly to stay informed about our use of cookies and related technologies.",
+    "contactTitle": "Contact",
+    "contactContent": "If you have questions or comments about this Cookie Policy, please contact us by email: info@nanaconvivial.de.",
+    "homeLink": "Back to Home Page"
+  }
 }

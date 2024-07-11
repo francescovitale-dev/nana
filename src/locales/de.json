@@ -58,33 +58,59 @@
     "menu": "MENÜ",
     "contact": "KONTAKT",
     "imprint": "IMPRESSUM"
-  }, 
-    "impressum": {
-      "title": "Impressum",
-      "content": "Vertreten durch:",
-      "name": "Naná GmbH",
-      "ceo": "Geschäftsführer William Vitale",
-      "registerEntry": "Eingetragen im Handelsregister",
-      "court": "Registergericht: Amtsgericht Frankfurt am Main",
-      "registerNumber": "Registernummer: HRB 134192",
-      "responsibility": "Verantwortlich für den Inhalt (gem. § 55 Abs. 2 RStV):",
-      "street": "Grüneburgweg 95",
-      "city": "60323 Frankfurt am Main",
-      "email": "info@nanaconvivial.de",
-      "phone": "+49 69 71436348",
-      "homeLink": "Zurück zur Startseite"
-    },
-    "notfound": {
-      "title": "Oops! Lost in Flavors?",
-      "message": "Looks like you've taken a wrong turn. Don't worry, we're here to guide you back to our delicious flavors!",
-      "homeLink": "Back to Naná"
-    },
-    "menuItem": {
-      "title": "Unser Menü",
-      "title-wine": "Unsere Weine",
-      "description-carta": "À la carte",
-      "description-degustazione": "Verkostung",
-      "allaCartaAvailability": "verfügbar zum Mittag- und Abendessen",
-      "degustazioneAvailability": "verfügbar zum Abendessen"
-    }
+  },
+  "impressum": {
+    "title": "Impressum",
+    "content": "Vertreten durch:",
+    "name": "Naná GmbH",
+    "ceo": "Geschäftsführer William Vitale",
+    "registerEntry": "Eingetragen im Handelsregister",
+    "court": "Registergericht: Amtsgericht Frankfurt am Main",
+    "registerNumber": "Registernummer: HRB 134192",
+    "responsibility": "Verantwortlich für den Inhalt (gem. § 55 Abs. 2 RStV):",
+    "street": "Grüneburgweg 95",
+    "city": "60323 Frankfurt am Main",
+    "email": "info@nanaconvivial.de",
+    "phone": "+49 69 71436348",
+    "homeLink": "Zurück zur Startseite"
+  },
+  "notfound": {
+    "title": "Oops! Lost in Flavors?",
+    "message": "Looks like you've taken a wrong turn. Don't worry, we're here to guide you back to our delicious flavors!",
+    "homeLink": "Back to Naná"
+  },
+  "menuItem": {
+    "title": "Unser Menü",
+    "title-wine": "Unsere Weine",
+    "description-carta": "À la carte",
+    "description-degustazione": "Verkostung",
+    "allaCartaAvailability": "verfügbar zum Mittag- und Abendessen",
+    "degustazioneAvailability": "verfügbar zum Abendessen"
+  },
+  "cookiePolicy": {
+    "notice": "Diese Website verwendet Cookies, um die Benutzererfahrung zu verbessern.",
+    "readMore": "Weiterlesen",
+    "accept": "Akzeptieren",
+    "decline": "Ablehnen",
+    "title": "Cookie-Richtlinie",
+    "lastUpdated": "Letzte Aktualisierung: 11/07/2024",
+    "introductionTitle": "Einführung",
+    "introductionContent": "Diese Cookie-Richtlinie erklärt, wie das Restaurant Naná (\"wir\", \"unser\") Cookies und ähnliche Technologien verwendet, um Sie zu erkennen, wenn Sie unsere Website und App (\"Dienst\") besuchen. Sie erklärt, was diese Technologien sind und warum wir sie verwenden, sowie Ihre Rechte, die Nutzung zu kontrollieren.",
+    "whatAreCookiesTitle": "Was sind Cookies?",
+    "whatAreCookiesContent": "Cookies sind kleine Textdateien, die auf Ihrem Gerät (Computer, Tablet, Smartphone) gespeichert werden, wenn Sie eine Website besuchen. Sie werden häufig verwendet, um Websites funktionsfähig zu machen oder effizienter zu arbeiten, sowie um den Website-Besitzern Informationen zu liefern.",
+    "typesOfCookiesTitle": "Arten von Cookies, die wir verwenden",
+    "typesOfCookiesGoogleAnalyticsTitle": "Google Analytics",
+    "typesOfCookiesGoogleAnalyticsContent": "Wir verwenden Google Analytics, um anonyme Informationen über die Nutzung unserer Website zu sammeln. Diese Cookies helfen uns zu verstehen, wie Besucher mit unserer Website interagieren, sodass wir die Benutzererfahrung verbessern können. Weitere Informationen finden Sie in der Datenschutzerklärung von Google.",
+    "typesOfCookiesGoogleMapsTitle": "Google Maps",
+    "typesOfCookiesGoogleMapsContent": "Wir verwenden Google Maps, um Karten anzuzeigen und Wegbeschreibungen zu geben. Die Google Maps API kann Cookies setzen und Informationen über Ihre Nutzung der Karten sammeln. Weitere Informationen finden Sie in der Datenschutzerklärung von Google.",
+    "typesOfCookiesGoogleFontsTitle": "Google Fonts",
+    "typesOfCookiesGoogleFontsContent": "Wir verwenden Google Fonts, um Schriftarten auf unserer Website anzuzeigen. Wenn Sie eine Website anzeigen, die Google Fonts verwendet, stellt Ihr Browser eine Verbindung zu den Servern von Google her und Google kann Daten über Sie sammeln. Weitere Informationen finden Sie in der Datenschutzerklärung von Google.",
+    "howToControlCookiesTitle": "Wie man Cookies kontrolliert",
+    "howToControlCookiesContent": "Sie haben das Recht zu entscheiden, ob Sie Cookies akzeptieren oder ablehnen möchten. Sie können Ihre Cookie-Einstellungen über die Einstellungen Ihres Webbrowsers verwalten. Wenn Sie Cookies ablehnen, können Sie unsere Website weiterhin nutzen, aber Ihr Zugang zu einigen Funktionen und Bereichen unserer Website kann eingeschränkt sein.",
+    "updatesToPolicyTitle": "Aktualisierungen dieser Cookie-Richtlinie",
+    "updatesToPolicyContent": "Wir können diese Cookie-Richtlinie von Zeit zu Zeit aktualisieren, um beispielsweise Änderungen bei den von uns verwendeten Cookies oder aus anderen betrieblichen, rechtlichen oder regulatorischen Gründen widerzuspiegeln. Wir empfehlen Ihnen, diese Cookie-Richtlinie regelmäßig zu überprüfen, um über die Nutzung von Cookies und verwandten Technologien informiert zu bleiben.",
+    "contactTitle": "Kontakt",
+    "contactContent": "Wenn Sie Fragen oder Anmerkungen zu dieser Cookie-Richtlinie haben, kontaktieren Sie uns bitte per E-Mail: info@nanaconvivial.de.",
+    "homeLink": "Zurück zur Startseite"
+  }
 }

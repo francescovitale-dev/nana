@@ -1,15 +1,17 @@
 import React, { useEffect } from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import { useTranslation } from 'react-i18next';
+import CookieConsent, { Cookies } from "react-cookie-consent";
 
 import './i18n.js';
-import { AboutUs, Chef, FindUs, Footer, Header, Menu, Impressum, NotFound } from './container';
+import { AboutUs, Chef, FindUs, Footer, Header, Menu, Impressum, NotFound, CookiePolicy } from './container';
 import { MenuItem, Wines } from './components/index.js';
 import './App.css';
 
 const App = () => {
   const { i18n } = useTranslation();
+  const { t } = useTranslation();
 
   useEffect(() => {
     // Questo effetto si attiva ogni volta che la lingua cambia
@@ -42,6 +44,17 @@ const App = () => {
 
   const metaTags = getMetaTags();
 
+  const handleAccept = () => {
+    Cookies.set("CookieConsent", "true", { expires: 150 });
+    window.location.reload();
+  };
+
+  const handleDecline = () => {
+    Cookies.set("CookieConsent", "false", { expires: 150 });
+    // Implementa la logica per disabilitare le funzionalità basate sui cookie
+    window.location.reload();
+  };
+
   return (
     <>
       <Helmet>
@@ -72,8 +85,26 @@ const App = () => {
             <Route path="/menu" element={<MenuItem />} />
             <Route path="/wines" element={<Wines />} />
             <Route path="*" element={<NotFound />} />
+            <Route path="/cookie-policy" element={<CookiePolicy />} />
           </Routes>
         </div>
+
+        <CookieConsent
+        location="bottom"
+        buttonText={t("cookiePolicy.accept")}
+        declineButtonText={t("cookiePolicy.decline")}
+        cookieName="CookiePolicy"
+        style={{ background: "black" }}
+        buttonStyle={{ backgroundColor:"#4f643e", color: "white", fontSize: "13px", marginLeft: "0", marginRight: "2rem" }}
+        declineButtonStyle={{ backgroundColor: "#B20000", color: "white", fontSize: "13px" }}
+        enableDeclineButton
+        expires={150}
+        onAccept={handleAccept}
+        onDecline={handleDecline}
+      >
+        {t('cookiePolicy.notice')}
+        <Link to="/cookie-policy" style={{ textDecoration: "underline", marginLeft: "0.3rem"}}>{t("cookiePolicy.readMore")}</Link>
+      </CookieConsent>
       </Router>
     </>
   );
