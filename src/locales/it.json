@@ -36,8 +36,9 @@
     "email": "Email: info@nanaconvivial.de",
     "phone": "Telefono: +49 69 71436348",
     "openingHoursTitle": "Orari di Apertura",
-    "openingHours": "Mar - Sab: 12.00 - 14.30 / 18.30 - 23.30",
-    "openingHoursSun": "Dom: 12.00 - 15.00",
+    "openingHours": "Mar - Ven: 12.00 - 14.30 / 18.30 - 22.30",
+    "openingHoursSat": "Sab: 17.00 - 23.00",
+    "openingHoursSun": "Dom: 12.00 - 17.00",
     "openingHoursMo": "Lun: Chiuso"
   },
   "footer": {
@@ -48,8 +49,9 @@
     "email": "info@nanaconvivial.de",
     "phone": "+49 69 71436348",
     "openingHoursTitle": "ORARI DI APERTURA",
-    "openingHours": "Mar - Sab: 12.00 - 14.30 / 18.30 - 23.30",
-    "openingHoursSun": "Dom: 12.00 - 15.00",
+    "openingHours": "Mar - Ven: 12.00 - 14.30 / 18.30 - 22.30",
+    "openingHoursSat": "Sab: 17.00 - 23.00",
+    "openingHoursSun": "Dom: 12.00 - 17.00",
     "openingHoursMo": "Lun: Chiuso",
     "quote": "La migliore esperienza per i tuoi sensi.",
     "rightsReserved": "2024 Naná. All Rights reserved.",

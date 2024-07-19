@@ -63,6 +63,7 @@ const FindUs = () => {
           </p>
           <p className="abeezee-regular" style={{ textTransform: "uppercase", lineHeight: "22px" }}>
             {t("contact.openingHours")} <br />
+            {t("contact.openingHoursSat")} <br />
             {t("contact.openingHoursSun")} <br />
             {t("contact.openingHoursMo")}
           </p>

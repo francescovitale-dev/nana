@@ -22,6 +22,7 @@ const Footer = () => {
           <p className="abeezee-regular" style={{ lineHeight: "20px"}}>
             {t('footer.openingHoursTitle')} <br />
             {t('footer.openingHours')} <br />
+            {t('footer.openingHoursSat')} <br />
             {t('footer.openingHoursSun')} <br />
             {t('footer.openingHoursMo')}
           </p>
