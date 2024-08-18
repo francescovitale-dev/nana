@@ -19,8 +19,7 @@ import vino7 from '../assets/vino7.webp';
 import vino8 from '../assets/vino8.webp';
 import vino9 from '../assets/vino9.webp';
 import vino10 from '../assets/vino10.webp';
-import vino11 from '../assets/vino11.webp';
-
+import vino11 from '../assets/vino11.webp'
 
 export default {
   chef,

@@ -56,6 +56,9 @@ const Footer = () => {
                 <a href="#contact">&gt; {t('footer.contact')}</a> <br />
               </li>
               <li>
+                <Link to="/cookie-policy">&gt; {t('footer.privacy')}</Link>
+              </li>
+              <li>
                 <Link to="/impressum">&gt; {t('footer.imprint')}</Link>
               </li>
             </ul>
