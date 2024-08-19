@@ -60,7 +60,8 @@
     "menu": "MENÜ",
     "contact": "KONTAKT",
     "privacy": "DATENSCHUTZ",
-    "imprint": "IMPRESSUM"
+    "imprint": "IMPRESSUM",
+    "developedBy": "Entwickelt von Francesco Vitale"
   },
   "impressum": {
     "title": "Impressum",

@@ -65,12 +65,34 @@
   margin-bottom: 1rem;
 }
 
-.footer__copyright {
-  margin-top: 3rem;
-}
-
 .google-logo {
   width: 21px; 
+}
+
+.footer__copyright {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.developer-credit {
+  font-size: 0.8rem;
+  color: #4f643e;
+  text-decoration: underline;
+  display: inline-block;
+  margin-top: 0.2rem;
+}
+
+.developer-credit:hover {
+  color: #4f643e;
+  font-size: 0.83rem;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .developer-credit {
+    font-size: 0.7rem;
+  }
 }
 
 @media screen and (min-width: 2000px) {

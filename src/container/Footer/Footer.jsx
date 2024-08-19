@@ -98,6 +98,16 @@ const Footer = () => {
 
       <div className="footer__copyright">
         <p className="p__opensans">{t("footer.rightsReserved")}</p>
+        <p className="developer-credit">
+        <a 
+          href="https://vitalefrancesco.com" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="developer-credit"
+        >
+          {t("footer.developedBy")}
+        </a>
+        </p>
       </div>
     </div>
   );
