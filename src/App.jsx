@@ -6,7 +6,7 @@ import CookieConsent, { Cookies } from "react-cookie-consent";
 
 import './i18n.js';
 import { AboutUs, Chef, FindUs, Footer, Header, Menu, Impressum, NotFound, CookiePolicy } from './container';
-import { MenuItem, Wines } from './components/index.js';
+import { MenuItem, WineMenuItem } from './components/index.js';
 import './App.css';
 
 const App = () => {
@@ -83,7 +83,7 @@ const App = () => {
             } />
             <Route path="/impressum" element={<Impressum />} />
             <Route path="/menu" element={<MenuItem />} />
-            <Route path="/wines" element={<Wines />} />
+            <Route path="/wines" element={<WineMenuItem />} />
             <Route path="*" element={<NotFound />} />
             <Route path="/cookie-policy" element={<CookiePolicy />} />
           </Routes>

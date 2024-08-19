@@ -3,7 +3,7 @@
 // import FooterOverlay from './Footer/FooterOverlay';
 import MenuItem from './Menuitem/MenuItem';
 import Navbar from './Navbar/Navbar';
-import Wines from './Wines/Wines';
+import WineMenuItem from './Wines/WineMenuItem';
 
 export {
   // SubHeading,
@@ -11,5 +11,5 @@ export {
   // FooterOverlay,
   MenuItem,
   Navbar,
-  Wines
+  WineMenuItem
 };

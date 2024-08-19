@@ -1,32 +1,52 @@
-import React from 'react';
+import React, { lazy, Suspense } from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
+import { motion } from 'framer-motion';
 import { images } from '../../constants';
-import './MenuItem.css';  // Importa lo stile CSS per il layout e la responsività
+import './MenuItem.css';
+
+const LazyImage = lazy(() => import('../LazyImage'));
 
 const MenuItem = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="menu-container">
+    <motion.div 
+      className="menu-container"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 0.5 }}
+    >
       <h1>{t('menuItem.title')}</h1>
       <p className='menu-description'>{t('menuItem.description-carta')}</p>
       <p className="menu-info">{t('menuItem.allaCartaAvailability')}</p>
 
       <div className="menu-images">
-        <div className="menu-item">
-          <img src={images.allaCarta} alt="Menu alla Carta" className="menu-image" />
-        </div>
-        <div className="menu-item">
+        <motion.div 
+          className="menu-item"
+          whileHover={{ scale: 1.05 }}
+          transition={{ type: "spring", stiffness: 300 }}
+        >
+          <Suspense fallback={<div>Loading...</div>}>
+            <LazyImage src={images.allaCarta} alt="Menu alla Carta" className="menu-image" />
+          </Suspense>
+        </motion.div>
+        <motion.div 
+          className="menu-item"
+          whileHover={{ scale: 1.05 }}
+          transition={{ type: "spring", stiffness: 300 }}
+        >
           <p className='menu-description'>{t('menuItem.description-degustazione')}</p>
           <p className="menu-info">{t('menuItem.degustazioneAvailability')}</p>
-          <img src={images.degustazione} alt="Menu Degustazione" className="menu-image" />
-        </div>
+          <Suspense fallback={<div>Loading...</div>}>
+            <LazyImage src={images.degustazione} alt="Menu Degustazione" className="menu-image" />
+          </Suspense>
+        </motion.div>
       </div>
-      <Link to="/" className="app__menu-button">
+      <Link to="/#home" className="app__menu-button">
         {t("impressum.homeLink")}
       </Link>
-    </div>
+    </motion.div>
   );
 };
 
