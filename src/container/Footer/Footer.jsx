@@ -1,5 +1,5 @@
 import React from "react";
-import { FaInstagram, FaTripadvisor } from "react-icons/fa";
+import { FaInstagram, FaTiktok, FaTripadvisor } from "react-icons/fa";
 import { SlSocialGoogle } from "react-icons/sl";
 import { useTranslation } from "react-i18next";
 import { images } from "../../constants";
@@ -52,6 +52,13 @@ const Footer = () => {
               rel="noopener noreferrer"
             >
               <FaInstagram />
+            </a>
+            <a
+              href="https://www.tiktok.com/@nana.convivial?_t=8pHtGwe8veD&_r=1"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaTiktok />
             </a>
             <a
               href="https://maps.app.goo.gl/n9BrCcorpb9VgEqM9"
