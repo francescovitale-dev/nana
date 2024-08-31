@@ -1,22 +1,41 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import { motion } from 'framer-motion';
+import { Navbar } from '../../components';
 import './Header.css';
-import { Navbar } from '../../components'; 
 
 const Header = () => {
-  const  { t }  = useTranslation();
+  const { t } = useTranslation();
 
   return (
     <div className="background">
-    <Navbar />
-    <div className='app__header app__wrapper section__padding' id='home'>
-      <div className='app__wrapper_info'>
-        <h1 className='app__header-h1'>{t('header.title')}</h1>
-        <p className='p__opensans' style={{ margin: '2rem 0' }}>
-          {t('header.description')}
-        </p>
-      </div>
-    </div>
+      <Navbar />
+      <motion.div 
+        className='app__header app__wrapper section__padding' 
+        id='home'
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8 }}
+      >
+        <div className='app__wrapper_info'>
+          <motion.h1 
+            className='app__header-h1'
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.2 }}
+          >
+            {t('header.title')}
+          </motion.h1>
+          <motion.p 
+            className='p__opensans'
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.4 }}
+          >
+            {t('header.description')}
+          </motion.p>
+        </div>
+      </motion.div>
     </div>
   );
 };
