@@ -16,6 +16,7 @@
 
 .background {
   background: url('./assets/imgbackground.webp');
+  background-size: cover;
   height: 100vh;
 }
 
