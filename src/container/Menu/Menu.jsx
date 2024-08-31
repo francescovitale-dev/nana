@@ -11,7 +11,7 @@ const Menu = () => {
     <div className="app__bg-menu" id="menu">
       <div className="menu-section">
         <h1 className='p__cormorant-menu'>{t('menu.menuTitle')}</h1>
-        <img src={images.mano} alt="about_mano" className="mano__img-menu" />
+        <img src={images.mano} alt="about_mano" className="mano__img" />
         <h2 className='p__cormorant-menu-2'>{t('menu.menuDescription')}</h2>
         <div className="menu-card">
           <Link to="/menu" className='menu-button'>

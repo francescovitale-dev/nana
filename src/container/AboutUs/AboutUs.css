@@ -1,5 +1,12 @@
 .app__aboutus {
-  position: relative; 
+  position: relative;
+  overflow: hidden;
+  min-height: 100vh;
+}
+
+.app__aboutus-content {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .app__aboutus-content_history {
@@ -10,57 +17,46 @@
   text-align: center;
 }
 
-.app__aboutus-content_history p, 
-.app__aboutus-content_about p {
-  margin: 2rem 0;
+.app__aboutus-content_history p {
+  margin: 1.5rem 0;
   color: var(--color-white);
-  padding: 0rem 15rem;
+  max-width: 80ch;
+  line-height: 1.6;
 }
 
-.highlight { /* stile per Westend in frankfurt */
-  color: #4f643e; 
-  font-weight: bold; 
+.headtext__cormorant {
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  color: var(--color-golden);
+}
+
+.highlight {
+  color: #4f643e;
+  font-weight: bold;
+  transition: color 0.3s ease;
 }
 
 .line__green {
-  position: absolute; /* Imposta la posizione assoluta rispetto al contenitore principale */
-  bottom: 0; /* Allinea la linea al fondo della sezione */
-  left: 0; /* Allinea la linea all'inizio della sezione */
-  width: 100%; /* Larghezza al 100% del contenitore principale */
-  height: 1px;
-  background-color: #4f643e; /* Colore verde */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #4f643e;
+  transform-origin: left;
 }
 
-@media screen and (max-width: 2000px){
-  .app__aboutus-content_knife img {
-    height: 1110px;
-  }
-
+@media screen and (max-width: 768px) {
   .app__aboutus-content_history p {
-    margin: 1rem 0;
-    text-transform: none;
+    padding: 0 1rem;
   }
 }
 
-@media screen and (max-width: 900px){
-  .app__aboutus-content {
-    flex-direction: column;
+@media screen and (max-width: 480px) {
+  .headtext__cormorant {
+    font-size: 1.8rem;
   }
-
+  
   .app__aboutus-content_history p {
-    margin: 1rem 0;
-    text-transform: none;
-    padding: 0;
-  }
-
-  .app__aboutus-knife {
-    margin: 4rem 0;
-  }
-}
-
-@media screen and (max-width: 650px){
-  .app__aboutus-overlay img {
-    width: 80%;
-    height: 320px;
+    font-size: 0.9rem;
   }
 }

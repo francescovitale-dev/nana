@@ -8,11 +8,10 @@ const Header = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="background">
+    <div className="background" id='home'>
       <Navbar />
       <motion.div 
-        className='app__header app__wrapper section__padding' 
-        id='home'
+        className='app__header app__wrapper section__padding'
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
