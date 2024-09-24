@@ -1,0 +1,24 @@
+.book-button {
+  background-color: #4f643e; /* Colore di sfondo accattivante */
+  color: white; /* Colore del testo */
+  border: none; /* Rimuove il bordo predefinito */
+  padding: 15px 30px; /* Padding per un aspetto più "full" */
+  border-radius: 30px; /* Bordo arrotondato */
+  font-size: 16px; /* Dimensione del font */
+  font-weight: bold; /* Grassetto */
+  cursor: pointer; /* Cambia il cursore al passaggio del mouse */
+  transition: background-color 0.3s, transform 0.2s; /* Transizioni per effetti al passaggio del mouse */
+}
+
+.book-button:hover {
+  background-color: #607a4a; /* Colore di sfondo al passaggio del mouse */
+  transform: scale(1.05); /* Leggera ingrandimento al passaggio del mouse */
+}
+
+@media (max-width: 600px) {
+  .book-button {
+    padding: 10px 20px; /* Riduci il padding */
+    font-size: 14px; /* Riduci la dimensione del font */
+    border-radius: 20px; /* Riduci il bordo arrotondato */
+  }
+}

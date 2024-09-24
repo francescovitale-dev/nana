@@ -4,6 +4,7 @@
 import MenuItem from './Menuitem/MenuItem';
 import Navbar from './Navbar/Navbar';
 import WineMenuItem from './Wines/WineMenuItem';
+import ReservationButton from './ReservationButton/ReservationButton';
 
 export {
   // SubHeading,
@@ -11,5 +12,6 @@ export {
   // FooterOverlay,
   MenuItem,
   Navbar,
-  WineMenuItem
+  WineMenuItem,
+  ReservationButton
 };

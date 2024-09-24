@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
-import { Navbar } from '../../components';
+import { Navbar, ReservationButton } from '../../components';
 import './Header.css';
 
 const Header = () => {
@@ -33,6 +33,7 @@ const Header = () => {
           >
             {t('header.description')}
           </motion.p>
+          <ReservationButton />
         </div>
       </motion.div>
     </div>
