@@ -1,4 +1,4 @@
-import React, { lazy, Suspense } from 'react';
+import { lazy, Suspense } from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
@@ -24,22 +24,22 @@ const MenuItem = () => {
       <div className="menu-images">
         <motion.div 
           className="menu-item"
-          whileHover={{ scale: 1.05 }}
           transition={{ type: "spring", stiffness: 300 }}
         >
           <Suspense fallback={<div>Loading...</div>}>
             <LazyImage src={images.allaCarta} alt="Menu alla Carta" className="menu-image" />
+            <LazyImage src={images.allaCarta2} alt="Menu alla Carta" className="menu-image" />
           </Suspense>
         </motion.div>
         <motion.div 
           className="menu-item"
-          whileHover={{ scale: 1.05 }}
           transition={{ type: "spring", stiffness: 300 }}
         >
           <p className='menu-description'>{t('menuItem.description-degustazione')}</p>
           <p className="menu-info">{t('menuItem.degustazioneAvailability')}</p>
           <Suspense fallback={<div>Loading...</div>}>
             <LazyImage src={images.degustazione} alt="Menu Degustazione" className="menu-image" />
+            <LazyImage src={images.degustazione2} alt="Menu Degustazione" className="menu-image" />
           </Suspense>
         </motion.div>
       </div>

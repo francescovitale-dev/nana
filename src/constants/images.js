@@ -8,7 +8,9 @@ import imgbackground from '../assets/imgbackground.webp';
 import backgroundmenu from '../assets/backgroundmenu.webp';
 import nana from '../assets/nana.webp';
 import allaCarta from '../assets/alla-carta.png';
+import allaCarta2 from '../assets/alla-carta-2.png';
 import degustazione from '../assets/degustazione.png';
+import degustazione2 from '../assets/degustazione-2.png';
 import vino1 from '../assets/vino1.webp'; 
 import vino2 from '../assets/vino2.webp'; 
 import vino3 from '../assets/vino3.webp';
@@ -32,7 +34,9 @@ export default {
   backgroundmenu,
   nana,
   allaCarta,
+  allaCarta2,
   degustazione,
+  degustazione2,
   vino1,
   vino2,
   vino3,
