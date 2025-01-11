@@ -39,7 +39,6 @@ const MenuItem = () => {
           <p className="menu-info">{t('menuItem.degustazioneAvailability')}</p>
           <Suspense fallback={<div>Loading...</div>}>
             <LazyImage src={images.degustazione} alt="Menu Degustazione" className="menu-image" />
-            <LazyImage src={images.degustazione2} alt="Menu Degustazione" className="menu-image" />
           </Suspense>
         </motion.div>
       </div>
