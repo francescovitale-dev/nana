@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import { useTranslation } from 'react-i18next';
@@ -8,6 +8,7 @@ import './i18n.js';
 import { AboutUs, Chef, FindUs, Footer, Header, Menu, Impressum, NotFound, CookiePolicy } from './container';
 import { MenuItem, WineMenuItem } from './components/index.js';
 import './App.css';
+import ScrollToTop from './components/ScrollToTop.jsx';
 
 const App = () => {
   const { i18n } = useTranslation();
@@ -69,6 +70,7 @@ const App = () => {
       </Helmet>
 
       <Router>
+        <ScrollToTop /> 
         <div>
           <Routes>
             <Route path="/" element={
