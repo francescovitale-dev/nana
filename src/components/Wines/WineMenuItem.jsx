@@ -1,4 +1,4 @@
-import React, { lazy, Suspense } from 'react';
+import { lazy, Suspense } from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
@@ -11,9 +11,8 @@ const WineMenuItem = () => {
   const { t } = useTranslation();
 
   const wineImages = [
-    images.vino1, images.vino2, images.vino3, images.vino4, images.vino5,
-    images.vino6, images.vino7, images.vino8, images.vino9, images.vino10,
-    images.vino11
+    images.wineMenu,
+    images.wineMenu2
   ];
 
   return (
